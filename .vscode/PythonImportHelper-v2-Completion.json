@@ -1,0 +1,1524 @@
+[
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "importPath": "glob",
+        "description": "glob",
+        "isExtraImport": true,
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "LooseVersion",
+        "importPath": "distutils.version",
+        "description": "distutils.version",
+        "isExtraImport": true,
+        "detail": "distutils.version",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "FormatStrFormatter",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "PercentFormatter",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "FormatStrFormatter",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "PercentFormatter",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "stock_analysis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stock_analysis",
+        "description": "stock_analysis",
+        "detail": "stock_analysis",
+        "documentation": {}
+    },
+    {
+        "label": "pkg_resources",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "Ellipse",
+        "importPath": "matplotlib.patches",
+        "description": "matplotlib.patches",
+        "isExtraImport": true,
+        "detail": "matplotlib.patches",
+        "documentation": {}
+    },
+    {
+        "label": "Ellipse",
+        "importPath": "matplotlib.patches",
+        "description": "matplotlib.patches",
+        "isExtraImport": true,
+        "detail": "matplotlib.patches",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "KMeans",
+        "importPath": "sklearn.cluster",
+        "description": "sklearn.cluster",
+        "isExtraImport": true,
+        "detail": "sklearn.cluster",
+        "documentation": {}
+    },
+    {
+        "label": "KMeans",
+        "importPath": "sklearn.cluster",
+        "description": "sklearn.cluster",
+        "isExtraImport": true,
+        "detail": "sklearn.cluster",
+        "documentation": {}
+    },
+    {
+        "label": "ListedColormap",
+        "importPath": "matplotlib.colors",
+        "description": "matplotlib.colors",
+        "isExtraImport": true,
+        "detail": "matplotlib.colors",
+        "documentation": {}
+    },
+    {
+        "label": "ListedColormap",
+        "importPath": "matplotlib.colors",
+        "description": "matplotlib.colors",
+        "isExtraImport": true,
+        "detail": "matplotlib.colors",
+        "documentation": {}
+    },
+    {
+        "label": "auc",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "auc",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "scipy.stats",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "bernoulli",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "binom",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "expon",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "poisson",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "norm",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "skewnorm",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "bernoulli",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "binom",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "expon",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "poisson",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "norm",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "skewnorm",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "ECDF",
+        "importPath": "statsmodels.distributions.empirical_distribution",
+        "description": "statsmodels.distributions.empirical_distribution",
+        "isExtraImport": true,
+        "detail": "statsmodels.distributions.empirical_distribution",
+        "documentation": {}
+    },
+    {
+        "label": "ECDF",
+        "importPath": "statsmodels.distributions.empirical_distribution",
+        "description": "statsmodels.distributions.empirical_distribution",
+        "isExtraImport": true,
+        "detail": "statsmodels.distributions.empirical_distribution",
+        "documentation": {}
+    },
+    {
+        "label": "seasonal_decompose",
+        "importPath": "statsmodels.tsa.seasonal",
+        "description": "statsmodels.tsa.seasonal",
+        "isExtraImport": true,
+        "detail": "statsmodels.tsa.seasonal",
+        "documentation": {}
+    },
+    {
+        "label": "seasonal_decompose",
+        "importPath": "statsmodels.tsa.seasonal",
+        "description": "statsmodels.tsa.seasonal",
+        "isExtraImport": true,
+        "detail": "statsmodels.tsa.seasonal",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "distutils.core",
+        "description": "distutils.core",
+        "isExtraImport": true,
+        "detail": "distutils.core",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass\n        tee_f.write(what)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info[0],\n        sys.version_info[1],\n        suffix,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(\"-> %s\\\\%s[%s]=%r\" % (root_key_name, key_name, value_name, value))\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(\"-> DELETE %s\\\\%s[%s]\" % (root_key_name, key_name, value_name))\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n        like file_created to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(\"Failed to unregister COM objects: %s\" % (why,))\n    try:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location):\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError('Path \"{}\" does not exist!'.format(location))\n    return location\ndef main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python pywin32_postinstall.py -install\n    If you installed pywin32 via a .exe installer, this should be run\n    automatically after installation, but if it fails you can run it again.\n    If you installed pywin32 via PIP, you almost certainly need to run this to",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(os.path.join(tempfile.gettempdir(), \"pywin32_postinstall.log\"), \"w\")\nclass Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True\nexcept NameError:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(\"*** Test script '%s' exited with %s\" % (script, result.returncode))\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [this_dir] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "this_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "this_dir = os.path.dirname(__file__)\nsite_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "ingresos",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.1-Basics.Teoria.a",
+        "description": "01-Ramp_Up.02-Python.01-Python.1-Basics.Teoria.a",
+        "peekOfCode": "ingresos = 1000\nprint(ingresos)\ningresos = 500\nprint(ingresos)\nprint('\"hola\"')",
+        "detail": "01-Ramp_Up.02-Python.01-Python.1-Basics.Teoria.a",
+        "documentation": {}
+    },
+    {
+        "label": "ingresos",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.1-Basics.Teoria.a",
+        "description": "01-Ramp_Up.02-Python.01-Python.1-Basics.Teoria.a",
+        "peekOfCode": "ingresos = 500\nprint(ingresos)\nprint('\"hola\"')",
+        "detail": "01-Ramp_Up.02-Python.01-Python.1-Basics.Teoria.a",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.otro_folder.segundo_script_2",
+        "description": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.otro_folder.segundo_script_2",
+        "peekOfCode": "c = 3\nd = 4",
+        "detail": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.otro_folder.segundo_script_2",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.otro_folder.segundo_script_2",
+        "description": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.otro_folder.segundo_script_2",
+        "peekOfCode": "d = 4",
+        "detail": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.otro_folder.segundo_script_2",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.segundo_script",
+        "description": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.segundo_script",
+        "peekOfCode": "c = 3\nd = 4",
+        "detail": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.segundo_script",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.segundo_script",
+        "description": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.segundo_script",
+        "peekOfCode": "d = 4",
+        "detail": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.direc_segundo.segundo_script",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.ejer_prueba",
+        "description": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.ejer_prueba",
+        "peekOfCode": "a = 1\nb = 2",
+        "detail": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.ejer_prueba",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.ejer_prueba",
+        "description": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.ejer_prueba",
+        "peekOfCode": "b = 2",
+        "detail": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.ejer_prueba",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.primer_script",
+        "description": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.primer_script",
+        "peekOfCode": "class MyClass:\n    \"\"\"\n    Example class.\n    \"\"\"\n    def __init__(self):\n        self.variable = my_variable\n    def set_variable(self, new_value: int) -> None:\n        \"\"\"\n        Set self.variable to a new value\n        \"\"\"",
+        "detail": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.primer_script",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.primer_script",
+        "description": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.primer_script",
+        "peekOfCode": "def my_function() -> int:\n    \"\"\"\n    Example function\n    \"\"\"\n    return my_variable\nclass MyClass:\n    \"\"\"\n    Example class.\n    \"\"\"\n    def __init__(self):",
+        "detail": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.primer_script",
+        "documentation": {}
+    },
+    {
+        "label": "my_variable",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.primer_script",
+        "description": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.primer_script",
+        "peekOfCode": "my_variable = 0\ndef my_function() -> int:\n    \"\"\"\n    Example function\n    \"\"\"\n    return my_variable\nclass MyClass:\n    \"\"\"\n    Example class.\n    \"\"\"",
+        "detail": "01-Ramp_Up.02-Python.01-Python.6-Modules.Teoria.primer_script",
+        "documentation": {}
+    },
+    {
+        "label": "circle_areas",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.7-Programacion funcional.Teoría.prueba",
+        "description": "01-Ramp_Up.02-Python.01-Python.7-Programacion funcional.Teoría.prueba",
+        "peekOfCode": "circle_areas = [3.56773, 5.57668, 4.00914, 56.24241, 9.01344, 32.00013]\nresult = map(round, circle_areas)\n# print(list(result))\nprint(tuple(result))",
+        "detail": "01-Ramp_Up.02-Python.01-Python.7-Programacion funcional.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "01-Ramp_Up.02-Python.01-Python.7-Programacion funcional.Teoría.prueba",
+        "description": "01-Ramp_Up.02-Python.01-Python.7-Programacion funcional.Teoría.prueba",
+        "peekOfCode": "result = map(round, circle_areas)\n# print(list(result))\nprint(tuple(result))",
+        "detail": "01-Ramp_Up.02-Python.01-Python.7-Programacion funcional.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "run_checks",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "description": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "peekOfCode": "def run_checks(raise_exc=False):\n    \"\"\"\n    Comprueba que los paquetes que necesitamos están instalados y que la versión de Python es buena.\n    Parámetros\n    ----------\n    raise_exc : bool, por defecto ``False``\n        Si se lanza una excepción si alguno de los paquetes no\n        no cumple los requisitos (usado para GitHub Action).\n    \"\"\"\n    failures = []",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "documentation": {}
+    },
+    {
+        "label": "script_dir",
+        "kind": 5,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "description": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "peekOfCode": "script_dir = os.path.dirname(os.path.abspath(__file__))\n# Cambia el directorio de trabajo al directorio del script\nos.chdir(script_dir)\nOK = '\\x1b[42m[ OK ]\\x1b[0m'\nFAIL = '\\x1b[41m[FAIL]\\x1b[0m'\ngithub_package_pattern = re.compile(r'(?:\\/)([\\w*\\-*]*)(?:\\.git)')\ndef run_checks(raise_exc=False):\n    \"\"\"\n    Comprueba que los paquetes que necesitamos están instalados y que la versión de Python es buena.\n    Parámetros",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "documentation": {}
+    },
+    {
+        "label": "OK",
+        "kind": 5,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "description": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "peekOfCode": "OK = '\\x1b[42m[ OK ]\\x1b[0m'\nFAIL = '\\x1b[41m[FAIL]\\x1b[0m'\ngithub_package_pattern = re.compile(r'(?:\\/)([\\w*\\-*]*)(?:\\.git)')\ndef run_checks(raise_exc=False):\n    \"\"\"\n    Comprueba que los paquetes que necesitamos están instalados y que la versión de Python es buena.\n    Parámetros\n    ----------\n    raise_exc : bool, por defecto ``False``\n        Si se lanza una excepción si alguno de los paquetes no",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "documentation": {}
+    },
+    {
+        "label": "FAIL",
+        "kind": 5,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "description": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "peekOfCode": "FAIL = '\\x1b[41m[FAIL]\\x1b[0m'\ngithub_package_pattern = re.compile(r'(?:\\/)([\\w*\\-*]*)(?:\\.git)')\ndef run_checks(raise_exc=False):\n    \"\"\"\n    Comprueba que los paquetes que necesitamos están instalados y que la versión de Python es buena.\n    Parámetros\n    ----------\n    raise_exc : bool, por defecto ``False``\n        Si se lanza una excepción si alguno de los paquetes no\n        no cumple los requisitos (usado para GitHub Action).",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "documentation": {}
+    },
+    {
+        "label": "github_package_pattern",
+        "kind": 5,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "description": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "peekOfCode": "github_package_pattern = re.compile(r'(?:\\/)([\\w*\\-*]*)(?:\\.git)')\ndef run_checks(raise_exc=False):\n    \"\"\"\n    Comprueba que los paquetes que necesitamos están instalados y que la versión de Python es buena.\n    Parámetros\n    ----------\n    raise_exc : bool, por defecto ``False``\n        Si se lanza una excepción si alguno de los paquetes no\n        no cumple los requisitos (usado para GitHub Action).\n    \"\"\"",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_01.check_environment",
+        "documentation": {}
+    },
+    {
+        "label": "support_and_resistance",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "peekOfCode": "def support_and_resistance():\n    \"\"\"Mostrar muestra de soporte y resistencia para las acciones de Netflix en 2018\"\"\"\n    reader = stock_analysis.StockReader('2018-01-01', '2018-12-31')\n    # obtener datos de Netflix\n    nflx = reader.get_ticker_data('NFLX')\n    # trazar la evolución del precio de cierre a lo largo del tiempo\n    ax = stock_analysis.StockVisualizer(nflx).evolution_over_time(\n        'close', figsize=(15, 3), legend=False, color=BLUE,\n        title='Comprender el soporte y la resistencia'\n    )",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "random_walk_stock_comparison",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "peekOfCode": "def random_walk_stock_comparison(df, choices=[-1, 1], probs=[0.5, 0.5], seed=2):\n    \"\"\"\n    Modela un paseo aleatorio a partir del primer precio de cierre de una acción en el marco de datos.\n    Muestra 3 paseos aleatorios y los datos reales en subtrazados asignados aleatoriamente.\n    ¿Puedes encontrar los datos reales?\n    Parámetros:\n        - df: El marco de datos de las acciones reales.\n        - opciones: Las opciones de tamaños de paso, por defecto [-1, 1].\n        - probs: La probabilidad de obtener cada tamaño de paso,\n                 por defecto [0.5, 0.5]. Debe tener el mismo",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "RED",
+        "kind": 5,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "peekOfCode": "RED = '#B30000'\nGREEN = '#5BC95B'\nBLUE = '#00B3B3'\ndef support_and_resistance():\n    \"\"\"Mostrar muestra de soporte y resistencia para las acciones de Netflix en 2018\"\"\"\n    reader = stock_analysis.StockReader('2018-01-01', '2018-12-31')\n    # obtener datos de Netflix\n    nflx = reader.get_ticker_data('NFLX')\n    # trazar la evolución del precio de cierre a lo largo del tiempo\n    ax = stock_analysis.StockVisualizer(nflx).evolution_over_time(",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "GREEN",
+        "kind": 5,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "peekOfCode": "GREEN = '#5BC95B'\nBLUE = '#00B3B3'\ndef support_and_resistance():\n    \"\"\"Mostrar muestra de soporte y resistencia para las acciones de Netflix en 2018\"\"\"\n    reader = stock_analysis.StockReader('2018-01-01', '2018-12-31')\n    # obtener datos de Netflix\n    nflx = reader.get_ticker_data('NFLX')\n    # trazar la evolución del precio de cierre a lo largo del tiempo\n    ax = stock_analysis.StockVisualizer(nflx).evolution_over_time(\n        'close', figsize=(15, 3), legend=False, color=BLUE,",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "BLUE",
+        "kind": 5,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "peekOfCode": "BLUE = '#00B3B3'\ndef support_and_resistance():\n    \"\"\"Mostrar muestra de soporte y resistencia para las acciones de Netflix en 2018\"\"\"\n    reader = stock_analysis.StockReader('2018-01-01', '2018-12-31')\n    # obtener datos de Netflix\n    nflx = reader.get_ticker_data('NFLX')\n    # trazar la evolución del precio de cierre a lo largo del tiempo\n    ax = stock_analysis.StockVisualizer(nflx).evolution_over_time(\n        'close', figsize=(15, 3), legend=False, color=BLUE,\n        title='Comprender el soporte y la resistencia'",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "low_med_high_bins_viz",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "peekOfCode": "def low_med_high_bins_viz(data, column, ylabel, title, figsize=(15, 3)):\n    \"\"\"Visualiza los bins de igual anchura bajo, medio y alto.\"\"\"\n    ax = data.plot(y=column, figsize=figsize, color='black', title=title)\n    xlims = ax.get_xlim()\n    for bin_name, hatch, bounds in zip(\n        ['low', 'med', 'high'],\n        ['///', '', '\\\\\\\\\\\\'],\n        pd.cut(data[column], bins=3).unique().categories.values\n    ):\n        plt.axhspan(bounds.left, bounds.right, alpha=0.2, label=bin_name, hatch=hatch, color='black')",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "quartile_bins_viz",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "peekOfCode": "def quartile_bins_viz(data, column, ylabel, title, figsize=(15, 8)):\n    \"\"\"Visualizar intervalos de cuartiles.\"\"\"\n    ax = data.plot(y=column, figsize=figsize, color='black', title=title)\n    xlims = ax.get_xlim()\n    for bin_name, hatch, bounds in zip(\n        [r'$Q_1$', r'$Q_2$', r'$Q_3$', r'$Q_4$'],\n        ['\\\\\\\\\\\\', '', '///', '||||'],\n        pd.qcut(data.volume, q=4).unique().categories.values\n    ):\n        plt.axhspan(bounds.left, bounds.right, alpha=0.2, label=bin_name, hatch=hatch, color='black')",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "resampling_example",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "peekOfCode": "def resampling_example():\n    \"\"\"Muestra los datos de antes y después del remuestreo a nivel de minutos a nivel diario\"\"\"\n    np.random.seed(0)\n    index = pd.date_range('2018-01-01', freq='T', periods=365*24*60)\n    raw = pd.DataFrame(\n        np.random.uniform(0, 10, size=index.shape[0]), index=index\n    )\n    fig, axes = plt.subplots(1, 2, figsize=(15, 5))\n    raw.plot(legend=False, ax=axes[0], title='raw data')\n    raw.resample('1D').sum().plot(legend=False, ax=axes[1], title='daily totals')",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "elliptical_orbit",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "peekOfCode": "def elliptical_orbit():\n    \"\"\"Dibuja un ejemplo de planeta con una órbita elíptica alrededor de su estrella\"\"\"\n    fig, axes = plt.subplots(1, 1)\n    orbit = Ellipse(xy=(0, 0), width=2, height=1.5, facecolor='lightblue')\n    axes.add_artist(orbit)\n    axes.plot([-1, 0], [0, 0])\n    axes.annotate(\n        'semi-major axis', \n        xy=(-0.5, 0), \n        xytext=(-0.8, -0.2), ",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "market_segmentation_cluster_example",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "peekOfCode": "def market_segmentation_cluster_example():\n    \"\"\"Muestre un ejemplo de conglomerados de segmentación del mercado.\"\"\"\n    df = pd.read_csv(pkg_resources.resource_stream(__name__, 'data/market_segmentation_cluster_example.csv'))\n    model = KMeans(3, random_state=2).fit(df)\n    ax = sns.scatterplot(\n        x=df.products_viewed, \n        y=df.products_purchased, \n        hue=model.labels_, \n        palette=sns.color_palette('colorblind', n_colors=3)\n    )",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "peekOfCode": "def confusion_matrix():\n    \"\"\"Crear una ayuda visual para comprender la matriz de confusión\"\"\"\n    ax = sns.heatmap(\n        np.array([[1, 0], [0, 1]]), cbar=False, cmap=ListedColormap(['whitesmoke', 'lightgray']),\n        annot=np.array([\n            ['TP\\n(True Positive)', 'FP\\n(False Positive)'], \n            ['FN\\n(False Negative)', 'TN\\n(True Negative)']\n        ]), fmt=\"\", annot_kws={'size': 15, 'weight': 'bold'}\n    )\n    ax.set_xticklabels([True, False])",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "portion_of_confusion_matrix_considered",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "peekOfCode": "def portion_of_confusion_matrix_considered(metrics):\n    \"\"\"Mostrar la parte de la matriz de confusión considerada para un par de métricas.\"\"\"\n    if not isinstance(metrics, set):\n        metrics = set(metrics)\n    if metrics == {'precision', 'recall'}:\n        data = [\n            ['precision + recall', 'precision'], \n            ['recall', 'not considered']\n        ]\n    elif metrics == {'sensitivity', 'specificity'}:",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "logistic_sigmoid",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "peekOfCode": "def logistic_sigmoid():\n    \"\"\"Mostrar el gráfico sigmoide logístico\"\"\"\n    x = np.linspace(-10, 10)\n    y = 1. / (1. + np.exp(-x))\n    fig = plt.plot(x, y)[0].figure\n    plt.title('Función Logística Sigmoide')\n    plt.xlabel('x')\n    plt.ylabel('y')\n    return fig.axes\ndef roc_curve():",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "roc_curve",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "peekOfCode": "def roc_curve():\n    \"\"\"Mostrar curvas ROC de ejemplo.\"\"\"\n    data = pd.read_csv(pkg_resources.resource_stream(__name__, 'data/sample_roc_curves.csv'))\n    ax = sns.lineplot(\n        data=data, hue='label', x='x', y='y', palette='Greens'\n    )\n    ax.plot([0, 1], [0, 1], 'k--', alpha=0.3)\n    # formatting \n    ax.set_title('Curvas ROC de muestra')\n    ax.set_xlabel('Tasa de falsos positivos (FPR)')",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "isolation_forest",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "peekOfCode": "def isolation_forest():\n    \"\"\"Muestra un ejemplo de un solo árbol en un bosque aislado.\"\"\"\n    df = pd.DataFrame({\n        'feature_1': [0, 1, 2, 8, 3.5, 2, 3], \n        'feature_2': [1, 2, 1.5, 0.25, 0.73, 1, 2]\n    })\n    fig = plt.figure(figsize=(20, 30))\n    grid_dims = (6, 8)\n    axes = []\n    # datos originales",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "bias_variance_tradeoff",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "peekOfCode": "def bias_variance_tradeoff():\n    \"\"\"Crear subparcelas para ilustrar el equilibrio entre sesgo y varianza\"\"\"\n    np.random.seed(5)\n    x = np.linspace(start=-1, stop=0.25, num=20)\n    y = x**2 + np.random.uniform(-0.25, 0.25, size=20)\n    fig, axes = plt.subplots(1, 3, figsize=(15, 3))\n    for ax in axes:\n        ax.plot(x, y, 'bo')\n        ax.set_xlabel('x')\n        ax.set_ylabel('y')",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "show_distributions",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.sim_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.sim_viz",
+        "peekOfCode": "def show_distributions():\n    \"\"\"Genera un gráfico para cada una de las distribuciones utilizadas en la simulación.\"\"\"\n    fig, axes = plt.subplots(2, 3, figsize=(15, 10))\n    axes = axes.flatten()\n    fig.delaxes(axes[-2])\n    # distribución triangular definida por el mínimo (a), el máximo (b) y la moda\n    a, b, mode = 1.5, 5, 2.75\n    peak = 2 / (b - a)# peak of PDF is at 2/(b-a)\n    axes[0].plot([a, mode, b], [0, peak, 0])\n    axes[0].set_title('Triangular PDF')",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.sim_viz",
+        "documentation": {}
+    },
+    {
+        "label": "anscombes_quartet",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def anscombes_quartet(r_squared=False):\n    \"\"\"Traza el Cuarteto de Anscombe junto con estadísticas resumidas.\"\"\"\n    # obtener datos\n    anscombe = sns.load_dataset('anscombe').groupby('dataset')\n    # definir subtramas y títulos\n    fig, axes = plt.subplots(2, 2, figsize=(12, 12))\n    axes = axes.flatten()\n    titles = ['linear', 'non-linear', 'linear with outlier', 'vertical with outlier']\n    for ax, (group_name, group_data), title in zip(axes, anscombe, titles):\n        # obtener x, y",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "datasaurus_dozen",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def datasaurus_dozen():\n    \"\"\"\n    Mostrar el conjunto de datos Datasaurus Dozen\n    Puesto original de Datasaurus: http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html\n    Docena de Datasaurus: https://www.autodeskresearch.com/publications/samestats\n    \"\"\"\n    df = pd.read_csv(pkg_resources.resource_stream(__name__, 'data/DatasaurusDozen.tsv'), sep='\\t')\n    fig, axes = plt.subplots(4, 4, figsize=(12, 12))\n    axes = axes.flatten()\n    for spine in axes[0].spines:",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "cdf_example",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def cdf_example():\n    \"\"\"Subparcelas para entender la FCD\"\"\"\n    data = _non_symmetric_data()\n    ecdf = ECDF(data)\n    fig, axes = plt.subplots(1, 3, figsize=(15, 3))\n    for ax in axes:\n        ax.plot(ecdf.x, ecdf.y)\n        ax.set_xlabel('x')\n        ax.set_ylabel('F(x)')\n    # inferior o igual al 50",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "common_dists",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def common_dists():\n    \"\"\"Mostrar algunas distribuciones de uso común.\"\"\"\n    # preparar los subplots\n    fig, axes = plt.subplots(2, 3, figsize=(15, 10))\n    axes = axes.flatten()\n    # gaussiana\n    mu, sigma = 0, 1\n    x = np.linspace(mu - 3*sigma, mu + 3*sigma, 100)\n    axes[0].plot(x, norm.pdf(x, mu, sigma))\n    axes[0].set_title('Gaussian PDF')",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "correlation_coefficient_examples",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def correlation_coefficient_examples():\n    \"\"\"Muestra algunos ejemplos de gráficos de dispersión con coeficientes de correlación.\"\"\"\n    # datos de partida\n    np.random.seed(0)\n    x = np.random.normal(size=100)\n    y = np.random.normal(size=100)\n    # crear subplots\n    fig, axes = plt.subplots(1, 4, figsize=(16, 3))\n    # ninguna correlación\n    axes[0].scatter(x, y)",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "different_modal_plots",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def different_modal_plots():\n    \"\"\"Mostrar distribuciones de ejemplo unimodales, bimodales y multimodales.\"\"\"\n    # detalles de distribución\n    x = np.linspace(-4, 4, 500)\n    loc1, scale1, size1 = (-2, 0.75, 150)\n    loc2, scale2, size2 = (3, 0.5, 50)\n    loc3, scale3, size3 = (0.4, 1, 150)\n    # crear subplots\n    fig, axes = plt.subplots(1, 3, figsize=(15, 3))\n    # gráfico unimodal",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "effect_of_std_dev",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def effect_of_std_dev():\n    \"\"\"Mostrar dos distribuciones normales con diferentes desviaciones estándar.\"\"\"\n    np.random.seed(0)\n    data = pd.DataFrame({\n        'σ = 0.5': np.random.normal(scale=0.5, size=1000),\n        'σ = 2': np.random.normal(scale=2, size=1000)\n    })\n    ax = data.plot(kind='density', title='Diferentes desviaciones típicas de la población', figsize=(5, 2), colormap='brg')\n    plt.xlabel('x')\n    _despine(ax)",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_boxplot",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def example_boxplot():\n    \"\"\"Generar un gráfico de caja de ejemplo.\"\"\"\n    non_symmetric = _non_symmetric_data()\n    # hallar los cuartiles y el iqr\n    q1_y, median_y, q3_y = non_symmetric.quantile([0.25, 0.5, 0.75])\n    iqr = q3_y - q1_y\n    # crear una boxplot\n    ax = non_symmetric.plot(kind='box', figsize=(6, 6), title='Box plot')\n    # etiquetar la caja\n    ax.annotate('median', xy=(0.945, median_y + 2))",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_histogram",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def example_histogram():\n    \"\"\"Generar un histograma de ejemplo.\"\"\"\n    non_symmetric = _non_symmetric_data()\n    # obtener bins\n    bins = np.histogram_bin_edges(non_symmetric)\n    # trazar los datos\n    ax = non_symmetric.plot(\n        kind='hist', legend=False, figsize=(15, 3),\n        title=f'Histograma con 10 intervalos (each of width {bins[1] - bins[0]:.2f})'\n    )",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_kde",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def example_kde():\n    \"\"\"Generar un KDE de ejemplo.\"\"\"\n    non_symmetric = _non_symmetric_data()\n    # plot the data\n    ax = non_symmetric.plot(\n        kind='kde', legend=False, figsize=(15, 3), \n        title='Estimación de la densidad del núcleo', bw_method=0.1, ylim=(0, 0.02)\n    )\n    ax.set_xlabel('x')\n    # encontrar medidas de tendencia central",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_regression",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def example_regression():\n    \"\"\"Mostrar ejemplo de regresión.\"\"\"\n    # generar datos\n    np.random.seed(0)\n    ice_cream_sales = pd.DataFrame({\n        'temps': np.linspace(20, 40, num=30),\n        'sales': np.abs(np.append(np.arange(2, 22), np.arange(22, 32)) + np.random.randint(-10, 10, size=30))\n    })\n    # hacer el diagrama de dispersión\n    ax = ice_cream_sales.plot(",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_scatter_plot",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def example_scatter_plot():\n    \"\"\"Mostrar ejemplo de gráfico de dispersión.\"\"\"\n    # generar datos\n    np.random.seed(0)\n    ice_cream_sales = pd.DataFrame({\n        'temps': np.linspace(20, 40, num=30),\n        'sales': np.abs(np.append(np.arange(2, 22), np.arange(22, 32)) + np.random.randint(-10, 10, size=30))\n    })\n    # hacer el diagrama de dispersión\n    ax = ice_cream_sales.plot(",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "hist_and_kde",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def hist_and_kde():\n    \"\"\"Mostrar histograma con KDE.\"\"\"\n    # obtener datos\n    data = _non_symmetric_data()\n    # trazar histograma y KDE\n    ax = data.plot(kind='hist', density=True, bins=12, alpha=0.5, title='Estimación de la distribución', figsize=(15, 3))\n    data.plot(kind='kde', ax=ax, color='blue').set_xlabel('x')\n    _despine(ax)\n    return ax\ndef non_linear_relationships():",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "non_linear_relationships",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def non_linear_relationships():\n    \"\"\"Representar gráficamente datos logarítmicos y exponenciales junto con los coeficientes de correlación.\"\"\"\n    # crear subplots\n    fig, axes = plt.subplots(1, 2, figsize=(12, 3))\n    # trazado logarítmico\n    log_x = np.linspace(0.01, 10)\n    log_y = np.log(log_x)\n    axes[0].scatter(log_x, log_y)\n    axes[0].set_title(f'ρ = {np.round(np.corrcoef(log_x, log_y)[0][1], 2):.2f}')\n    # trazado exponencial",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "skew_examples",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def skew_examples():\n    \"\"\"Visualiza distribuciones a la izquierda, a la derecha y sin sesgo.\"\"\"\n    # crear subplots\n    fig, ax = plt.subplots(1, 3, figsize=(20, 4))\n    # determina skew\n    a = 4\n    # buscar estadísticas para la anotación\n    mean_skew_val = skewnorm.mean(a)\n    median_skew_val = skewnorm.median(a)\n    # obtener datos x donde PDF tiene valor",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "time_series_decomposition_example",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "peekOfCode": "def time_series_decomposition_example():\n    \"\"\"Mostrar un ejemplo de descomposición de series temporales.\"\"\"\n    # generar una serie temporal aleatoria\n    np.random.seed(0)\n    ts = pd.DataFrame({'timestamp' : pd.date_range('2018-01-01', periods=365, freq='D')})\n    for i, drift, seasonality, noise in zip(\n        ts.index, \n        np.linspace(0, 1, num=365), \n        itertools.cycle(np.append(np.linspace(0, np.pi, num=25), np.linspace(np.pi, 0, num=25, endpoint=False))),\n        np.random.uniform(-10, 10, size=365)",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "make_grayscale",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "peekOfCode": "def make_grayscale(filepath, save=False):\n    \"\"\"Convierte un archivo de imagen a escala de grises y, opcionalmente, lo guarda en `save`\"\"\"\n    img = Image.open(filepath).convert('LA')\n    if save:\n        img.save(save)\n    return img\ndef edit_image(filepath, replacements, save=False):\n    \"\"\"\n    Reemplaza los colores de la imagen especificada píxel a píxel.\n    Parámetros:",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "documentation": {}
+    },
+    {
+        "label": "edit_image",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "peekOfCode": "def edit_image(filepath, replacements, save=False):\n    \"\"\"\n    Reemplaza los colores de la imagen especificada píxel a píxel.\n    Parámetros:\n        - filepath: La ruta a la imagen\n        - reemplazos: Un diccionario cuyas claves son\n                        tuplas de color RGBA a reemplazar y\n                        los valores son las sustituciones\n        - guardar: Si desea guardar el archivo de nuevo a la ruta de archivo.\n    Devuelve:",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "documentation": {}
+    },
+    {
+        "label": "save_plot",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "peekOfCode": "def save_plot(file):\n    \"\"\"Guardar la cifra actual.\"\"\"\n    plt.savefig(file, dpi=300, bbox_inches='tight')",
+        "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "documentation": {}
+    },
+    {
+        "label": "support_and_resistance",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "peekOfCode": "def support_and_resistance():\n    \"\"\"Mostrar muestra de soporte y resistencia para las acciones de Netflix en 2018\"\"\"\n    reader = stock_analysis.StockReader('2018-01-01', '2018-12-31')\n    # obtener datos de Netflix\n    nflx = reader.get_ticker_data('NFLX')\n    # trazar la evolución del precio de cierre a lo largo del tiempo\n    ax = stock_analysis.StockVisualizer(nflx).evolution_over_time(\n        'close', figsize=(15, 3), legend=False, color=BLUE,\n        title='Comprender el soporte y la resistencia'\n    )",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "random_walk_stock_comparison",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "peekOfCode": "def random_walk_stock_comparison(df, choices=[-1, 1], probs=[0.5, 0.5], seed=2):\n    \"\"\"\n    Modela un paseo aleatorio a partir del primer precio de cierre de una acción en el marco de datos.\n    Muestra 3 paseos aleatorios y los datos reales en subtrazados asignados aleatoriamente.\n    ¿Puedes encontrar los datos reales?\n    Parámetros:\n        - df: El marco de datos de las acciones reales.\n        - opciones: Las opciones de tamaños de paso, por defecto [-1, 1].\n        - probs: La probabilidad de obtener cada tamaño de paso,\n                 por defecto [0.5, 0.5]. Debe tener el mismo",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "RED",
+        "kind": 5,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "peekOfCode": "RED = '#B30000'\nGREEN = '#5BC95B'\nBLUE = '#00B3B3'\ndef support_and_resistance():\n    \"\"\"Mostrar muestra de soporte y resistencia para las acciones de Netflix en 2018\"\"\"\n    reader = stock_analysis.StockReader('2018-01-01', '2018-12-31')\n    # obtener datos de Netflix\n    nflx = reader.get_ticker_data('NFLX')\n    # trazar la evolución del precio de cierre a lo largo del tiempo\n    ax = stock_analysis.StockVisualizer(nflx).evolution_over_time(",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "GREEN",
+        "kind": 5,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "peekOfCode": "GREEN = '#5BC95B'\nBLUE = '#00B3B3'\ndef support_and_resistance():\n    \"\"\"Mostrar muestra de soporte y resistencia para las acciones de Netflix en 2018\"\"\"\n    reader = stock_analysis.StockReader('2018-01-01', '2018-12-31')\n    # obtener datos de Netflix\n    nflx = reader.get_ticker_data('NFLX')\n    # trazar la evolución del precio de cierre a lo largo del tiempo\n    ax = stock_analysis.StockVisualizer(nflx).evolution_over_time(\n        'close', figsize=(15, 3), legend=False, color=BLUE,",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "BLUE",
+        "kind": 5,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "peekOfCode": "BLUE = '#00B3B3'\ndef support_and_resistance():\n    \"\"\"Mostrar muestra de soporte y resistencia para las acciones de Netflix en 2018\"\"\"\n    reader = stock_analysis.StockReader('2018-01-01', '2018-12-31')\n    # obtener datos de Netflix\n    nflx = reader.get_ticker_data('NFLX')\n    # trazar la evolución del precio de cierre a lo largo del tiempo\n    ax = stock_analysis.StockVisualizer(nflx).evolution_over_time(\n        'close', figsize=(15, 3), legend=False, color=BLUE,\n        title='Comprender el soporte y la resistencia'",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.finance_viz",
+        "documentation": {}
+    },
+    {
+        "label": "low_med_high_bins_viz",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "peekOfCode": "def low_med_high_bins_viz(data, column, ylabel, title, figsize=(15, 3)):\n    \"\"\"Visualiza los bins de igual anchura bajo, medio y alto.\"\"\"\n    ax = data.plot(y=column, figsize=figsize, color='black', title=title)\n    xlims = ax.get_xlim()\n    for bin_name, hatch, bounds in zip(\n        ['low', 'med', 'high'],\n        ['///', '', '\\\\\\\\\\\\'],\n        pd.cut(data[column], bins=3).unique().categories.values\n    ):\n        plt.axhspan(bounds.left, bounds.right, alpha=0.2, label=bin_name, hatch=hatch, color='black')",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "quartile_bins_viz",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "peekOfCode": "def quartile_bins_viz(data, column, ylabel, title, figsize=(15, 8)):\n    \"\"\"Visualizar intervalos de cuartiles.\"\"\"\n    ax = data.plot(y=column, figsize=figsize, color='black', title=title)\n    xlims = ax.get_xlim()\n    for bin_name, hatch, bounds in zip(\n        [r'$Q_1$', r'$Q_2$', r'$Q_3$', r'$Q_4$'],\n        ['\\\\\\\\\\\\', '', '///', '||||'],\n        pd.qcut(data.volume, q=4).unique().categories.values\n    ):\n        plt.axhspan(bounds.left, bounds.right, alpha=0.2, label=bin_name, hatch=hatch, color='black')",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "resampling_example",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "peekOfCode": "def resampling_example():\n    \"\"\"Muestra los datos de antes y después del remuestreo a nivel de minutos a nivel diario\"\"\"\n    np.random.seed(0)\n    index = pd.date_range('2018-01-01', freq='T', periods=365*24*60)\n    raw = pd.DataFrame(\n        np.random.uniform(0, 10, size=index.shape[0]), index=index\n    )\n    fig, axes = plt.subplots(1, 2, figsize=(15, 5))\n    raw.plot(legend=False, ax=axes[0], title='raw data')\n    raw.resample('1D').sum().plot(legend=False, ax=axes[1], title='daily totals')",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "elliptical_orbit",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "peekOfCode": "def elliptical_orbit():\n    \"\"\"Dibuja un ejemplo de planeta con una órbita elíptica alrededor de su estrella\"\"\"\n    fig, axes = plt.subplots(1, 1)\n    orbit = Ellipse(xy=(0, 0), width=2, height=1.5, facecolor='lightblue')\n    axes.add_artist(orbit)\n    axes.plot([-1, 0], [0, 0])\n    axes.annotate(\n        'semi-major axis', \n        xy=(-0.5, 0), \n        xytext=(-0.8, -0.2), ",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "market_segmentation_cluster_example",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "peekOfCode": "def market_segmentation_cluster_example():\n    \"\"\"Muestre un ejemplo de conglomerados de segmentación del mercado.\"\"\"\n    df = pd.read_csv(pkg_resources.resource_stream(__name__, 'data/market_segmentation_cluster_example.csv'))\n    model = KMeans(3, random_state=2).fit(df)\n    ax = sns.scatterplot(\n        x=df.products_viewed, \n        y=df.products_purchased, \n        hue=model.labels_, \n        palette=sns.color_palette('colorblind', n_colors=3)\n    )",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.misc_viz",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "peekOfCode": "def confusion_matrix():\n    \"\"\"Crear una ayuda visual para comprender la matriz de confusión\"\"\"\n    ax = sns.heatmap(\n        np.array([[1, 0], [0, 1]]), cbar=False, cmap=ListedColormap(['whitesmoke', 'lightgray']),\n        annot=np.array([\n            ['TP\\n(True Positive)', 'FP\\n(False Positive)'], \n            ['FN\\n(False Negative)', 'TN\\n(True Negative)']\n        ]), fmt=\"\", annot_kws={'size': 15, 'weight': 'bold'}\n    )\n    ax.set_xticklabels([True, False])",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "portion_of_confusion_matrix_considered",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "peekOfCode": "def portion_of_confusion_matrix_considered(metrics):\n    \"\"\"Mostrar la parte de la matriz de confusión considerada para un par de métricas.\"\"\"\n    if not isinstance(metrics, set):\n        metrics = set(metrics)\n    if metrics == {'precision', 'recall'}:\n        data = [\n            ['precision + recall', 'precision'], \n            ['recall', 'not considered']\n        ]\n    elif metrics == {'sensitivity', 'specificity'}:",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "logistic_sigmoid",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "peekOfCode": "def logistic_sigmoid():\n    \"\"\"Mostrar el gráfico sigmoide logístico\"\"\"\n    x = np.linspace(-10, 10)\n    y = 1. / (1. + np.exp(-x))\n    fig = plt.plot(x, y)[0].figure\n    plt.title('Función Logística Sigmoide')\n    plt.xlabel('x')\n    plt.ylabel('y')\n    return fig.axes\ndef roc_curve():",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "roc_curve",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "peekOfCode": "def roc_curve():\n    \"\"\"Mostrar curvas ROC de ejemplo.\"\"\"\n    data = pd.read_csv(pkg_resources.resource_stream(__name__, 'data/sample_roc_curves.csv'))\n    ax = sns.lineplot(\n        data=data, hue='label', x='x', y='y', palette='Greens'\n    )\n    ax.plot([0, 1], [0, 1], 'k--', alpha=0.3)\n    # formatting \n    ax.set_title('Curvas ROC de muestra')\n    ax.set_xlabel('Tasa de falsos positivos (FPR)')",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "isolation_forest",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "peekOfCode": "def isolation_forest():\n    \"\"\"Muestra un ejemplo de un solo árbol en un bosque aislado.\"\"\"\n    df = pd.DataFrame({\n        'feature_1': [0, 1, 2, 8, 3.5, 2, 3], \n        'feature_2': [1, 2, 1.5, 0.25, 0.73, 1, 2]\n    })\n    fig = plt.figure(figsize=(20, 30))\n    grid_dims = (6, 8)\n    axes = []\n    # datos originales",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "bias_variance_tradeoff",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "peekOfCode": "def bias_variance_tradeoff():\n    \"\"\"Crear subparcelas para ilustrar el equilibrio entre sesgo y varianza\"\"\"\n    np.random.seed(5)\n    x = np.linspace(start=-1, stop=0.25, num=20)\n    y = x**2 + np.random.uniform(-0.25, 0.25, size=20)\n    fig, axes = plt.subplots(1, 3, figsize=(15, 3))\n    for ax in axes:\n        ax.plot(x, y, 'bo')\n        ax.set_xlabel('x')\n        ax.set_ylabel('y')",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.ml_viz",
+        "documentation": {}
+    },
+    {
+        "label": "show_distributions",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.sim_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.sim_viz",
+        "peekOfCode": "def show_distributions():\n    \"\"\"Genera un gráfico para cada una de las distribuciones utilizadas en la simulación.\"\"\"\n    fig, axes = plt.subplots(2, 3, figsize=(15, 10))\n    axes = axes.flatten()\n    fig.delaxes(axes[-2])\n    # distribución triangular definida por el mínimo (a), el máximo (b) y la moda\n    a, b, mode = 1.5, 5, 2.75\n    peak = 2 / (b - a)# peak of PDF is at 2/(b-a)\n    axes[0].plot([a, mode, b], [0, peak, 0])\n    axes[0].set_title('Triangular PDF')",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.sim_viz",
+        "documentation": {}
+    },
+    {
+        "label": "anscombes_quartet",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def anscombes_quartet(r_squared=False):\n    \"\"\"Traza el Cuarteto de Anscombe junto con estadísticas resumidas.\"\"\"\n    # obtener datos\n    anscombe = sns.load_dataset('anscombe').groupby('dataset')\n    # definir subtramas y títulos\n    fig, axes = plt.subplots(2, 2, figsize=(12, 12))\n    axes = axes.flatten()\n    titles = ['linear', 'non-linear', 'linear with outlier', 'vertical with outlier']\n    for ax, (group_name, group_data), title in zip(axes, anscombe, titles):\n        # obtener x, y",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "datasaurus_dozen",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def datasaurus_dozen():\n    \"\"\"\n    Mostrar el conjunto de datos Datasaurus Dozen\n    Puesto original de Datasaurus: http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html\n    Docena de Datasaurus: https://www.autodeskresearch.com/publications/samestats\n    \"\"\"\n    df = pd.read_csv(pkg_resources.resource_stream(__name__, 'data/DatasaurusDozen.tsv'), sep='\\t')\n    fig, axes = plt.subplots(4, 4, figsize=(12, 12))\n    axes = axes.flatten()\n    for spine in axes[0].spines:",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "cdf_example",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def cdf_example():\n    \"\"\"Subparcelas para entender la FCD\"\"\"\n    data = _non_symmetric_data()\n    ecdf = ECDF(data)\n    fig, axes = plt.subplots(1, 3, figsize=(15, 3))\n    for ax in axes:\n        ax.plot(ecdf.x, ecdf.y)\n        ax.set_xlabel('x')\n        ax.set_ylabel('F(x)')\n    # inferior o igual al 50",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "common_dists",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def common_dists():\n    \"\"\"Mostrar algunas distribuciones de uso común.\"\"\"\n    # preparar los subplots\n    fig, axes = plt.subplots(2, 3, figsize=(15, 10))\n    axes = axes.flatten()\n    # gaussiana\n    mu, sigma = 0, 1\n    x = np.linspace(mu - 3*sigma, mu + 3*sigma, 100)\n    axes[0].plot(x, norm.pdf(x, mu, sigma))\n    axes[0].set_title('Gaussian PDF')",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "correlation_coefficient_examples",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def correlation_coefficient_examples():\n    \"\"\"Muestra algunos ejemplos de gráficos de dispersión con coeficientes de correlación.\"\"\"\n    # datos de partida\n    np.random.seed(0)\n    x = np.random.normal(size=100)\n    y = np.random.normal(size=100)\n    # crear subplots\n    fig, axes = plt.subplots(1, 4, figsize=(16, 3))\n    # ninguna correlación\n    axes[0].scatter(x, y)",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "different_modal_plots",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def different_modal_plots():\n    \"\"\"Mostrar distribuciones de ejemplo unimodales, bimodales y multimodales.\"\"\"\n    # detalles de distribución\n    x = np.linspace(-4, 4, 500)\n    loc1, scale1, size1 = (-2, 0.75, 150)\n    loc2, scale2, size2 = (3, 0.5, 50)\n    loc3, scale3, size3 = (0.4, 1, 150)\n    # crear subplots\n    fig, axes = plt.subplots(1, 3, figsize=(15, 3))\n    # gráfico unimodal",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "effect_of_std_dev",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def effect_of_std_dev():\n    \"\"\"Mostrar dos distribuciones normales con diferentes desviaciones estándar.\"\"\"\n    np.random.seed(0)\n    data = pd.DataFrame({\n        'σ = 0.5': np.random.normal(scale=0.5, size=1000),\n        'σ = 2': np.random.normal(scale=2, size=1000)\n    })\n    ax = data.plot(kind='density', title='Diferentes desviaciones típicas de la población', figsize=(5, 2), colormap='brg')\n    plt.xlabel('x')\n    _despine(ax)",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_boxplot",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def example_boxplot():\n    \"\"\"Generar un gráfico de caja de ejemplo.\"\"\"\n    non_symmetric = _non_symmetric_data()\n    # hallar los cuartiles y el iqr\n    q1_y, median_y, q3_y = non_symmetric.quantile([0.25, 0.5, 0.75])\n    iqr = q3_y - q1_y\n    # crear una boxplot\n    ax = non_symmetric.plot(kind='box', figsize=(6, 6), title='Box plot')\n    # etiquetar la caja\n    ax.annotate('median', xy=(0.945, median_y + 2))",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_histogram",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def example_histogram():\n    \"\"\"Generar un histograma de ejemplo.\"\"\"\n    non_symmetric = _non_symmetric_data()\n    # obtener bins\n    bins = np.histogram_bin_edges(non_symmetric)\n    # trazar los datos\n    ax = non_symmetric.plot(\n        kind='hist', legend=False, figsize=(15, 3),\n        title=f'Histograma con 10 intervalos (each of width {bins[1] - bins[0]:.2f})'\n    )",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_kde",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def example_kde():\n    \"\"\"Generar un KDE de ejemplo.\"\"\"\n    non_symmetric = _non_symmetric_data()\n    # plot the data\n    ax = non_symmetric.plot(\n        kind='kde', legend=False, figsize=(15, 3), \n        title='Estimación de la densidad del núcleo', bw_method=0.1, ylim=(0, 0.02)\n    )\n    ax.set_xlabel('x')\n    # encontrar medidas de tendencia central",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_regression",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def example_regression():\n    \"\"\"Mostrar ejemplo de regresión.\"\"\"\n    # generar datos\n    np.random.seed(0)\n    ice_cream_sales = pd.DataFrame({\n        'temps': np.linspace(20, 40, num=30),\n        'sales': np.abs(np.append(np.arange(2, 22), np.arange(22, 32)) + np.random.randint(-10, 10, size=30))\n    })\n    # hacer el diagrama de dispersión\n    ax = ice_cream_sales.plot(",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "example_scatter_plot",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def example_scatter_plot():\n    \"\"\"Mostrar ejemplo de gráfico de dispersión.\"\"\"\n    # generar datos\n    np.random.seed(0)\n    ice_cream_sales = pd.DataFrame({\n        'temps': np.linspace(20, 40, num=30),\n        'sales': np.abs(np.append(np.arange(2, 22), np.arange(22, 32)) + np.random.randint(-10, 10, size=30))\n    })\n    # hacer el diagrama de dispersión\n    ax = ice_cream_sales.plot(",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "hist_and_kde",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def hist_and_kde():\n    \"\"\"Mostrar histograma con KDE.\"\"\"\n    # obtener datos\n    data = _non_symmetric_data()\n    # trazar histograma y KDE\n    ax = data.plot(kind='hist', density=True, bins=12, alpha=0.5, title='Estimación de la distribución', figsize=(15, 3))\n    data.plot(kind='kde', ax=ax, color='blue').set_xlabel('x')\n    _despine(ax)\n    return ax\ndef non_linear_relationships():",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "non_linear_relationships",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def non_linear_relationships():\n    \"\"\"Representar gráficamente datos logarítmicos y exponenciales junto con los coeficientes de correlación.\"\"\"\n    # crear subplots\n    fig, axes = plt.subplots(1, 2, figsize=(12, 3))\n    # trazado logarítmico\n    log_x = np.linspace(0.01, 10)\n    log_y = np.log(log_x)\n    axes[0].scatter(log_x, log_y)\n    axes[0].set_title(f'ρ = {np.round(np.corrcoef(log_x, log_y)[0][1], 2):.2f}')\n    # trazado exponencial",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "skew_examples",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def skew_examples():\n    \"\"\"Visualiza distribuciones a la izquierda, a la derecha y sin sesgo.\"\"\"\n    # crear subplots\n    fig, ax = plt.subplots(1, 3, figsize=(20, 4))\n    # determina skew\n    a = 4\n    # buscar estadísticas para la anotación\n    mean_skew_val = skewnorm.mean(a)\n    median_skew_val = skewnorm.median(a)\n    # obtener datos x donde PDF tiene valor",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "time_series_decomposition_example",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "peekOfCode": "def time_series_decomposition_example():\n    \"\"\"Mostrar un ejemplo de descomposición de series temporales.\"\"\"\n    # generar una serie temporal aleatoria\n    np.random.seed(0)\n    ts = pd.DataFrame({'timestamp' : pd.date_range('2018-01-01', periods=365, freq='D')})\n    for i, drift, seasonality, noise in zip(\n        ts.index, \n        np.linspace(0, 1, num=365), \n        itertools.cycle(np.append(np.linspace(0, np.pi, num=25), np.linspace(np.pi, 0, num=25, endpoint=False))),\n        np.random.uniform(-10, 10, size=365)",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.stats_viz",
+        "documentation": {}
+    },
+    {
+        "label": "make_grayscale",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.utils",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.utils",
+        "peekOfCode": "def make_grayscale(filepath, save=False):\n    \"\"\"Convierte un archivo de imagen a escala de grises y, opcionalmente, lo guarda en `save`\"\"\"\n    img = Image.open(filepath).convert('LA')\n    if save:\n        img.save(save)\n    return img\ndef edit_image(filepath, replacements, save=False):\n    \"\"\"\n    Reemplaza los colores de la imagen especificada píxel a píxel.\n    Parámetros:",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.utils",
+        "documentation": {}
+    },
+    {
+        "label": "edit_image",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.utils",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.utils",
+        "peekOfCode": "def edit_image(filepath, replacements, save=False):\n    \"\"\"\n    Reemplaza los colores de la imagen especificada píxel a píxel.\n    Parámetros:\n        - filepath: La ruta a la imagen\n        - reemplazos: Un diccionario cuyas claves son\n                        tuplas de color RGBA a reemplazar y\n                        los valores son las sustituciones\n        - guardar: Si desea guardar el archivo de nuevo a la ruta de archivo.\n    Devuelve:",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.utils",
+        "documentation": {}
+    },
+    {
+        "label": "save_plot",
+        "kind": 2,
+        "importPath": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.utils",
+        "description": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.utils",
+        "peekOfCode": "def save_plot(file):\n    \"\"\"Guardar la cifra actual.\"\"\"\n    plt.savefig(file, dpi=300, bbox_inches='tight')",
+        "detail": "Data_Analysis.Anilisis_de_datos.visual-aids.build.lib.visual_aids.utils",
+        "documentation": {}
+    }
+]
