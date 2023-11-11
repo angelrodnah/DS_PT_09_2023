@@ -80,6 +80,41 @@
         "documentation": {}
     },
     {
+        "label": "openmeteo_requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openmeteo_requests",
+        "description": "openmeteo_requests",
+        "detail": "openmeteo_requests",
+        "documentation": {}
+    },
+    {
+        "label": "requests_cache",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests_cache",
+        "description": "requests_cache",
+        "detail": "requests_cache",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "retry",
+        "importPath": "retry_requests",
+        "description": "retry_requests",
+        "isExtraImport": true,
+        "detail": "retry_requests",
+        "documentation": {}
+    },
+    {
         "label": "LooseVersion",
         "importPath": "distutils.version",
         "description": "distutils.version",
@@ -205,15 +240,6 @@
         "importPath": "numpy",
         "description": "numpy",
         "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -826,6 +852,186 @@
         "description": "01-Ramp_Up.02-Python.01-Python.7-Programacion funcional.Teoría.prueba",
         "peekOfCode": "result = map(round, circle_areas)\n# print(list(result))\nprint(tuple(result))",
         "detail": "01-Ramp_Up.02-Python.01-Python.7-Programacion funcional.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "cache_session",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "cache_session = requests_cache.CachedSession('.cache', expire_after = -1)\nretry_session = retry(cache_session, retries = 5, backoff_factor = 0.2)\nopenmeteo = openmeteo_requests.Client(session = retry_session)\n# Make sure all required weather variables are listed here\n# The order of variables in hourly or daily is important to assign them correctly below\nurl = \"https://archive-api.open-meteo.com/v1/archive\"\nparams = {\n\t\"latitude\": 52.52,\n\t\"longitude\": 13.41,\n\t\"start_date\": \"2000-12-31\",",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "retry_session",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "retry_session = retry(cache_session, retries = 5, backoff_factor = 0.2)\nopenmeteo = openmeteo_requests.Client(session = retry_session)\n# Make sure all required weather variables are listed here\n# The order of variables in hourly or daily is important to assign them correctly below\nurl = \"https://archive-api.open-meteo.com/v1/archive\"\nparams = {\n\t\"latitude\": 52.52,\n\t\"longitude\": 13.41,\n\t\"start_date\": \"2000-12-31\",\n\t\"end_date\": \"2019-12-31\",",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "openmeteo",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "openmeteo = openmeteo_requests.Client(session = retry_session)\n# Make sure all required weather variables are listed here\n# The order of variables in hourly or daily is important to assign them correctly below\nurl = \"https://archive-api.open-meteo.com/v1/archive\"\nparams = {\n\t\"latitude\": 52.52,\n\t\"longitude\": 13.41,\n\t\"start_date\": \"2000-12-31\",\n\t\"end_date\": \"2019-12-31\",\n\t\"hourly\": [\"temperature_2m\", \"precipitation\", \"rain\"]",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "url = \"https://archive-api.open-meteo.com/v1/archive\"\nparams = {\n\t\"latitude\": 52.52,\n\t\"longitude\": 13.41,\n\t\"start_date\": \"2000-12-31\",\n\t\"end_date\": \"2019-12-31\",\n\t\"hourly\": [\"temperature_2m\", \"precipitation\", \"rain\"]\n}\nresponses = openmeteo.weather_api(url, params=params)\n# Process first location. Add a for-loop for multiple locations or weather models",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "params = {\n\t\"latitude\": 52.52,\n\t\"longitude\": 13.41,\n\t\"start_date\": \"2000-12-31\",\n\t\"end_date\": \"2019-12-31\",\n\t\"hourly\": [\"temperature_2m\", \"precipitation\", \"rain\"]\n}\nresponses = openmeteo.weather_api(url, params=params)\n# Process first location. Add a for-loop for multiple locations or weather models\nresponse = responses[0]",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "responses",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "responses = openmeteo.weather_api(url, params=params)\n# Process first location. Add a for-loop for multiple locations or weather models\nresponse = responses[0]\nprint(f\"Coordinates {response.Latitude()}°E {response.Longitude()}°N\")\nprint(f\"Elevation {response.Elevation()} m asl\")\nprint(f\"Timezone {response.Timezone()} {response.TimezoneAbbreviation()}\")\nprint(f\"Timezone difference to GMT+0 {response.UtcOffsetSeconds()} s\")\n# Process hourly data. The order of variables needs to be the same as requested.\nhourly = response.Hourly()\nhourly_temperature_2m = hourly.Variables(0).ValuesAsNumpy()",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "response = responses[0]\nprint(f\"Coordinates {response.Latitude()}°E {response.Longitude()}°N\")\nprint(f\"Elevation {response.Elevation()} m asl\")\nprint(f\"Timezone {response.Timezone()} {response.TimezoneAbbreviation()}\")\nprint(f\"Timezone difference to GMT+0 {response.UtcOffsetSeconds()} s\")\n# Process hourly data. The order of variables needs to be the same as requested.\nhourly = response.Hourly()\nhourly_temperature_2m = hourly.Variables(0).ValuesAsNumpy()\nhourly_precipitation = hourly.Variables(1).ValuesAsNumpy()\nhourly_rain = hourly.Variables(2).ValuesAsNumpy()",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "hourly",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "hourly = response.Hourly()\nhourly_temperature_2m = hourly.Variables(0).ValuesAsNumpy()\nhourly_precipitation = hourly.Variables(1).ValuesAsNumpy()\nhourly_rain = hourly.Variables(2).ValuesAsNumpy()\nhourly_data = {\"date\": pd.date_range(\n\tstart = pd.to_datetime(hourly.Time(), unit = \"s\"),\n\tend = pd.to_datetime(hourly.TimeEnd(), unit = \"s\"),\n\tfreq = pd.Timedelta(seconds = hourly.Interval()),\n\tinclusive = \"left\"\n)}",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "hourly_temperature_2m",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "hourly_temperature_2m = hourly.Variables(0).ValuesAsNumpy()\nhourly_precipitation = hourly.Variables(1).ValuesAsNumpy()\nhourly_rain = hourly.Variables(2).ValuesAsNumpy()\nhourly_data = {\"date\": pd.date_range(\n\tstart = pd.to_datetime(hourly.Time(), unit = \"s\"),\n\tend = pd.to_datetime(hourly.TimeEnd(), unit = \"s\"),\n\tfreq = pd.Timedelta(seconds = hourly.Interval()),\n\tinclusive = \"left\"\n)}\nhourly_data[\"temperature_2m\"] = hourly_temperature_2m",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "hourly_precipitation",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "hourly_precipitation = hourly.Variables(1).ValuesAsNumpy()\nhourly_rain = hourly.Variables(2).ValuesAsNumpy()\nhourly_data = {\"date\": pd.date_range(\n\tstart = pd.to_datetime(hourly.Time(), unit = \"s\"),\n\tend = pd.to_datetime(hourly.TimeEnd(), unit = \"s\"),\n\tfreq = pd.Timedelta(seconds = hourly.Interval()),\n\tinclusive = \"left\"\n)}\nhourly_data[\"temperature_2m\"] = hourly_temperature_2m\nhourly_data[\"precipitation\"] = hourly_precipitation",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "hourly_rain",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "hourly_rain = hourly.Variables(2).ValuesAsNumpy()\nhourly_data = {\"date\": pd.date_range(\n\tstart = pd.to_datetime(hourly.Time(), unit = \"s\"),\n\tend = pd.to_datetime(hourly.TimeEnd(), unit = \"s\"),\n\tfreq = pd.Timedelta(seconds = hourly.Interval()),\n\tinclusive = \"left\"\n)}\nhourly_data[\"temperature_2m\"] = hourly_temperature_2m\nhourly_data[\"precipitation\"] = hourly_precipitation\nhourly_data[\"rain\"] = hourly_rain",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "hourly_data",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "hourly_data = {\"date\": pd.date_range(\n\tstart = pd.to_datetime(hourly.Time(), unit = \"s\"),\n\tend = pd.to_datetime(hourly.TimeEnd(), unit = \"s\"),\n\tfreq = pd.Timedelta(seconds = hourly.Interval()),\n\tinclusive = \"left\"\n)}\nhourly_data[\"temperature_2m\"] = hourly_temperature_2m\nhourly_data[\"precipitation\"] = hourly_precipitation\nhourly_data[\"rain\"] = hourly_rain\nhourly_dataframe = pd.DataFrame(data = hourly_data)",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "\tstart",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "\tstart = pd.to_datetime(hourly.Time(), unit = \"s\"),\n\tend = pd.to_datetime(hourly.TimeEnd(), unit = \"s\"),\n\tfreq = pd.Timedelta(seconds = hourly.Interval()),\n\tinclusive = \"left\"\n)}\nhourly_data[\"temperature_2m\"] = hourly_temperature_2m\nhourly_data[\"precipitation\"] = hourly_precipitation\nhourly_data[\"rain\"] = hourly_rain\nhourly_dataframe = pd.DataFrame(data = hourly_data)\nprint(hourly_dataframe)",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "\tend",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "\tend = pd.to_datetime(hourly.TimeEnd(), unit = \"s\"),\n\tfreq = pd.Timedelta(seconds = hourly.Interval()),\n\tinclusive = \"left\"\n)}\nhourly_data[\"temperature_2m\"] = hourly_temperature_2m\nhourly_data[\"precipitation\"] = hourly_precipitation\nhourly_data[\"rain\"] = hourly_rain\nhourly_dataframe = pd.DataFrame(data = hourly_data)\nprint(hourly_dataframe)",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "\tfreq",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "\tfreq = pd.Timedelta(seconds = hourly.Interval()),\n\tinclusive = \"left\"\n)}\nhourly_data[\"temperature_2m\"] = hourly_temperature_2m\nhourly_data[\"precipitation\"] = hourly_precipitation\nhourly_data[\"rain\"] = hourly_rain\nhourly_dataframe = pd.DataFrame(data = hourly_data)\nprint(hourly_dataframe)",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "\tinclusive",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "\tinclusive = \"left\"\n)}\nhourly_data[\"temperature_2m\"] = hourly_temperature_2m\nhourly_data[\"precipitation\"] = hourly_precipitation\nhourly_data[\"rain\"] = hourly_rain\nhourly_dataframe = pd.DataFrame(data = hourly_data)\nprint(hourly_dataframe)",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "hourly_data[\"temperature_2m\"]",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "hourly_data[\"temperature_2m\"] = hourly_temperature_2m\nhourly_data[\"precipitation\"] = hourly_precipitation\nhourly_data[\"rain\"] = hourly_rain\nhourly_dataframe = pd.DataFrame(data = hourly_data)\nprint(hourly_dataframe)",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "hourly_data[\"precipitation\"]",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "hourly_data[\"precipitation\"] = hourly_precipitation\nhourly_data[\"rain\"] = hourly_rain\nhourly_dataframe = pd.DataFrame(data = hourly_data)\nprint(hourly_dataframe)",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "hourly_data[\"rain\"]",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "hourly_data[\"rain\"] = hourly_rain\nhourly_dataframe = pd.DataFrame(data = hourly_data)\nprint(hourly_dataframe)",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
+        "documentation": {}
+    },
+    {
+        "label": "hourly_dataframe",
+        "kind": 5,
+        "importPath": "Data_Analysis.4-API.Teoría.prueba",
+        "description": "Data_Analysis.4-API.Teoría.prueba",
+        "peekOfCode": "hourly_dataframe = pd.DataFrame(data = hourly_data)\nprint(hourly_dataframe)",
+        "detail": "Data_Analysis.4-API.Teoría.prueba",
         "documentation": {}
     },
     {
