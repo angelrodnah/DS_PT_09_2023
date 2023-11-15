@@ -1080,6 +1080,15 @@
         "documentation": {}
     },
     {
+        "label": "window_calc",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_04.window_calc",
+        "description": "Data_Analysis.Analisis_de_datos.ch_04.window_calc",
+        "peekOfCode": "def window_calc(df, func, agg_dict, *args, **kwargs):\n  \"\"\"\n    Ejecuta un cálculo de ventana de su elección en un objeto `DataFrame`.\n    Parámetros:\n        - df: El objeto `DataFrame` sobre el que ejecutar el cálculo.\n        - func: El método de cálculo de la ventana que toma `df`\n          como primer argumento.\n        - agg_dict: Información a pasar a `agg()`, puede ser un\n          diccionario que asigna las columnas a la función\n          a usar, un nombre de cadena para la función,",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_04.window_calc",
+        "documentation": {}
+    },
+    {
         "label": "support_and_resistance",
         "kind": 2,
         "importPath": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.finance_viz",
