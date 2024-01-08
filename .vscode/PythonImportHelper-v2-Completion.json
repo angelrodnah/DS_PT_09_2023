@@ -141,6 +141,58 @@
         "documentation": {}
     },
     {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "ListedColormap",
+        "importPath": "matplotlib.colors",
+        "description": "matplotlib.colors",
+        "isExtraImport": true,
+        "detail": "matplotlib.colors",
+        "documentation": {}
+    },
+    {
+        "label": "ListedColormap",
+        "importPath": "matplotlib.colors",
+        "description": "matplotlib.colors",
+        "isExtraImport": true,
+        "detail": "matplotlib.colors",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
         "label": "random",
         "kind": 6,
         "isExtraImport": true,
@@ -156,15 +208,6 @@
         "importPath": "string",
         "description": "string",
         "detail": "string",
-        "documentation": {}
-    },
-    {
-        "label": "matplotlib.pyplot",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
         "documentation": {}
     },
     {
@@ -210,37 +253,11 @@
         "documentation": {}
     },
     {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "seaborn",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "seaborn",
-        "description": "seaborn",
-        "detail": "seaborn",
-        "documentation": {}
-    },
-    {
         "label": "KMeans",
         "importPath": "sklearn.cluster",
         "description": "sklearn.cluster",
         "isExtraImport": true,
         "detail": "sklearn.cluster",
-        "documentation": {}
-    },
-    {
-        "label": "ListedColormap",
-        "importPath": "matplotlib.colors",
-        "description": "matplotlib.colors",
-        "isExtraImport": true,
-        "detail": "matplotlib.colors",
         "documentation": {}
     },
     {
@@ -314,15 +331,6 @@
         "description": "scipy.stats",
         "isExtraImport": true,
         "detail": "scipy.stats",
-        "documentation": {}
-    },
-    {
-        "label": "itertools",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "itertools",
-        "description": "itertools",
-        "detail": "itertools",
         "documentation": {}
     },
     {
@@ -958,6 +966,51 @@
         "description": "Data_Analysis.Analisis_de_datos.ch_04.window_calc",
         "peekOfCode": "def window_calc(df, func, agg_dict, *args, **kwargs):\n  \"\"\"\n    Ejecuta un cálculo de ventana de su elección en un objeto `DataFrame`.\n    Parámetros:\n        - df: El objeto `DataFrame` sobre el que ejecutar el cálculo.\n        - func: El método de cálculo de la ventana que toma `df`\n          como primer argumento.\n        - agg_dict: Información a pasar a `agg()`, puede ser un\n          diccionario que asigna las columnas a la función\n          a usar, un nombre de cadena para la función,",
         "detail": "Data_Analysis.Analisis_de_datos.ch_04.window_calc",
+        "documentation": {}
+    },
+    {
+        "label": "hex_to_rgb_color_list",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_06.color_utils",
+        "description": "Data_Analysis.Analisis_de_datos.ch_06.color_utils",
+        "peekOfCode": "def hex_to_rgb_color_list(colors):\n    \"\"\"\n    Toma un color o una lista de colores en código hexadecimal y los convierte\n    a colores RGB en el rango [0,1].\n    Parámetros:\n        - Colores: Color o lista de cadenas de color del formato\n                  #FFF' o '#FFFFFF'.\n    Devuelve:\n        El color o lista de colores en representación RGB.\n    \"\"\"",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_06.color_utils",
+        "documentation": {}
+    },
+    {
+        "label": "blended_cmap",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_06.color_utils",
+        "description": "Data_Analysis.Analisis_de_datos.ch_06.color_utils",
+        "peekOfCode": "def blended_cmap(rgb_color_list):\n    \"\"\"\n    Creado un mapa de color que mezcla de un color a otro.\n    Parámetros:\n        - rgb_color_list: Una lista de colores representados como [R, G, B]\n          en el rango [0, 1], como [[0, 0, 0], [1, 1, 1]\n          para el blanco y el negro, respectivamente.\n    Devuelve:\n        Un objeto matplotlib `ListedColormap`.\n    \"\"\"",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_06.color_utils",
+        "documentation": {}
+    },
+    {
+        "label": "draw_cmap",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_06.color_utils",
+        "description": "Data_Analysis.Analisis_de_datos.ch_06.color_utils",
+        "peekOfCode": "def draw_cmap(cmap, values=np.array([[0, 1]]), **kwargs):\n    \"\"\"\n    Dibuja una barra de colores para visualizar un mapa de colores.\n    Parámetros:\n        - cmap: Un mapa de colores matplotlib\n        - valores: Los valores a utilizar para el colormap, por defecto [0, 1]\n        - kwargs: Argumentos de palabra clave para pasar a `plt.colorbar()`.\n    Devuelve:\n        Un objeto matplotlib `Colorbar`, que puede guardar con:\n        `plt.savefig(<nombre_archivo>, bbox_inches='tight')`",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_06.color_utils",
+        "documentation": {}
+    },
+    {
+        "label": "reg_resid_plots",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_06.viz",
+        "description": "Data_Analysis.Analisis_de_datos.ch_06.viz",
+        "peekOfCode": "def reg_resid_plots(data):\n    \"\"\"\n    Usando `seaborn`, traza los gráficos de regresión y residuos\n    lado a lado para cada permutación de 2 columnas en los datos.\n    Parámetros:\n        - Datos: Un `pandas.DataFrame`.\n    Devuelve:\n        Un objeto `Axes` de matplotlib.\n    \"\"\"\n    num_cols = data.shape[1]",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_06.viz",
+        "documentation": {}
+    },
+    {
+        "label": "std_from_mean_kde",
+        "kind": 2,
+        "importPath": "Data_Analysis.Analisis_de_datos.ch_06.viz",
+        "description": "Data_Analysis.Analisis_de_datos.ch_06.viz",
+        "peekOfCode": "def std_from_mean_kde(data):\n    \"\"\"\n    Trazar el KDE junto con las líneas verticales de referencia\n    para cada desviación estándar de la media.\n    Parámetros:\n        - Datos: `pandas.Series` con datos numéricos\n    Devuelve:\n        Objeto `Axes` de Matplotlib.\n    \"\"\"\n    mean_mag, std_mean = data.mean(), data.std()",
+        "detail": "Data_Analysis.Analisis_de_datos.ch_06.viz",
         "documentation": {}
     },
     {
