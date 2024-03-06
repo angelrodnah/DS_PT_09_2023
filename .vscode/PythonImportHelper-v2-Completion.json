@@ -312,6 +312,14 @@
         "documentation": {}
     },
     {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "ingresos",
         "kind": 5,
         "importPath": "01-Ramp_Up.02-Python.01-Python.1-Basics.Teoria.a",
@@ -1029,6 +1037,42 @@
         "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
         "peekOfCode": "def save_plot(file):\n    \"\"\"Guardar la cifra actual.\"\"\"\n    plt.savefig(file, dpi=300, bbox_inches='tight')",
         "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Teoria.app",
+        "description": "Data_Engineer.Flask.Teoria.app",
+        "peekOfCode": "def index():\n    return \"Hello World!\"\napp.add_url_rule('/', 'index', index)\napp.run(debug=True)\n@app.route(\"/user/<name>\")\ndef user(name):\n    return \"<h1>Hello, {}!</h1>\".format(name)\n@app.route(\"/user/<name>/<int:index>\")\ndef index(name, index):\n    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']",
+        "detail": "Data_Engineer.Flask.Teoria.app",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Teoria.app",
+        "description": "Data_Engineer.Flask.Teoria.app",
+        "peekOfCode": "def user(name):\n    return \"<h1>Hello, {}!</h1>\".format(name)\n@app.route(\"/user/<name>/<int:index>\")\ndef index(name, index):\n    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']\n    mydict = {'key': 'valor'}\n    mytuple = ('tuple1', 'tuple2', 'tuple3', 'tuple4')\n    return name,index, mylist, mydict,mytuple\nif __name__ == '__main__':\n    app.run()",
+        "detail": "Data_Engineer.Flask.Teoria.app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Teoria.app",
+        "description": "Data_Engineer.Flask.Teoria.app",
+        "peekOfCode": "def index(name, index):\n    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']\n    mydict = {'key': 'valor'}\n    mytuple = ('tuple1', 'tuple2', 'tuple3', 'tuple4')\n    return name,index, mylist, mydict,mytuple\nif __name__ == '__main__':\n    app.run()",
+        "detail": "Data_Engineer.Flask.Teoria.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Teoria.app",
+        "description": "Data_Engineer.Flask.Teoria.app",
+        "peekOfCode": "app = Flask(__name__)\ndef index():\n    return \"Hello World!\"\napp.add_url_rule('/', 'index', index)\napp.run(debug=True)\n@app.route(\"/user/<name>\")\ndef user(name):\n    return \"<h1>Hello, {}!</h1>\".format(name)\n@app.route(\"/user/<name>/<int:index>\")\ndef index(name, index):",
+        "detail": "Data_Engineer.Flask.Teoria.app",
         "documentation": {}
     }
 ]
