@@ -215,6 +215,62 @@
         "documentation": {}
     },
     {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_curve",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_auc_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_curve",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "auc",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
         "label": "scipy.stats",
         "kind": 6,
         "isExtraImport": true,
@@ -272,6 +328,78 @@
         "documentation": {}
     },
     {
+        "label": "skew",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "kurtosis",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "shapiro",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "iqr",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "kurtosis",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "skew",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "norm",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "uniform",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
         "label": "ECDF",
         "importPath": "statsmodels.distributions.empirical_distribution",
         "description": "statsmodels.distributions.empirical_distribution",
@@ -317,6 +445,111 @@
         "description": "flask",
         "isExtraImport": true,
         "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "BorutaShap",
+        "importPath": "BorutaShap",
+        "description": "BorutaShap",
+        "isExtraImport": true,
+        "detail": "BorutaShap",
+        "documentation": {}
+    },
+    {
+        "label": "statsmodels.api",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "statsmodels.api",
+        "description": "statsmodels.api",
+        "detail": "statsmodels.api",
+        "documentation": {}
+    },
+    {
+        "label": "cross_val_predict",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "RandomizedSearchCV",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "StratifiedKFold",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "cross_val_score",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "KFold",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "OneVsRestClassifier",
+        "importPath": "sklearn.multiclass",
+        "description": "sklearn.multiclass",
+        "isExtraImport": true,
+        "detail": "sklearn.multiclass",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "stats",
+        "importPath": "scipy",
+        "description": "scipy",
+        "isExtraImport": true,
+        "detail": "scipy",
         "documentation": {}
     },
     {
@@ -1044,7 +1277,16 @@
         "kind": 2,
         "importPath": "Data_Engineer.Flask.Teoria.app",
         "description": "Data_Engineer.Flask.Teoria.app",
-        "peekOfCode": "def index():\n    return \"Hello World!\"\napp.add_url_rule('/', 'index', index)\napp.run(debug=True)\n@app.route(\"/user/<name>\")\ndef user(name):\n    return \"<h1>Hello, {}!</h1>\".format(name)\n@app.route(\"/user/<name>/<int:index>\")\ndef index(name, index):\n    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']",
+        "peekOfCode": "def index():\n    print('esto no funciona en la web pero si en la terminal')\n    print(app.config['BCRYPT_LOG_ROUNDS'])\n    return \"<h1>Hola Solecito!</h1>\"\n@app.route('/rodrigo')\ndef index1():\n    return \"<h1>Rodrigo estuvo aquí!</h1>\"\nprint('esto no funciona')\n@app.route(f\"/user/{app.config['BCRYPT_LOG_ROUNDS']}/<name>\")\ndef user(name):",
+        "detail": "Data_Engineer.Flask.Teoria.app",
+        "documentation": {}
+    },
+    {
+        "label": "index1",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Teoria.app",
+        "description": "Data_Engineer.Flask.Teoria.app",
+        "peekOfCode": "def index1():\n    return \"<h1>Rodrigo estuvo aquí!</h1>\"\nprint('esto no funciona')\n@app.route(f\"/user/{app.config['BCRYPT_LOG_ROUNDS']}/<name>\")\ndef user(name):\n    return \"<h1>Hello, {}!</h1>\".format(name)\n@app.route(\"/user/<name>/<int:ind>\")\ndef index2(name, ind):\n    mylist = ['2024/03/06', 'elemento2', False, 'elemento4']\n    mydict = {'key': -ind}",
         "detail": "Data_Engineer.Flask.Teoria.app",
         "documentation": {}
     },
@@ -1053,16 +1295,16 @@
         "kind": 2,
         "importPath": "Data_Engineer.Flask.Teoria.app",
         "description": "Data_Engineer.Flask.Teoria.app",
-        "peekOfCode": "def user(name):\n    return \"<h1>Hello, {}!</h1>\".format(name)\n@app.route(\"/user/<name>/<int:index>\")\ndef index(name, index):\n    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']\n    mydict = {'key': 'valor'}\n    mytuple = ('tuple1', 'tuple2', 'tuple3', 'tuple4')\n    return name,index, mylist, mydict,mytuple\nif __name__ == '__main__':\n    app.run()",
+        "peekOfCode": "def user(name):\n    return \"<h1>Hello, {}!</h1>\".format(name)\n@app.route(\"/user/<name>/<int:ind>\")\ndef index2(name, ind):\n    mylist = ['2024/03/06', 'elemento2', False, 'elemento4']\n    mydict = {'key': -ind}\n    mytuple = (datetime.now().date().strftime('%Y/%m/%d'), None, 'tuple3', np.nan)\n    return jsonify(name=name, myindex=ind, mylist=mylist, mydict=mydict, mytuple=mytuple)\nif __name__ == '__main__':\n    app.run(debug=True,host=\"0.0.0.0\", port=8910)",
         "detail": "Data_Engineer.Flask.Teoria.app",
         "documentation": {}
     },
     {
-        "label": "index",
+        "label": "index2",
         "kind": 2,
         "importPath": "Data_Engineer.Flask.Teoria.app",
         "description": "Data_Engineer.Flask.Teoria.app",
-        "peekOfCode": "def index(name, index):\n    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']\n    mydict = {'key': 'valor'}\n    mytuple = ('tuple1', 'tuple2', 'tuple3', 'tuple4')\n    return name,index, mylist, mydict,mytuple\nif __name__ == '__main__':\n    app.run()",
+        "peekOfCode": "def index2(name, ind):\n    mylist = ['2024/03/06', 'elemento2', False, 'elemento4']\n    mydict = {'key': -ind}\n    mytuple = (datetime.now().date().strftime('%Y/%m/%d'), None, 'tuple3', np.nan)\n    return jsonify(name=name, myindex=ind, mylist=mylist, mydict=mydict, mytuple=mytuple)\nif __name__ == '__main__':\n    app.run(debug=True,host=\"0.0.0.0\", port=8910)",
         "detail": "Data_Engineer.Flask.Teoria.app",
         "documentation": {}
     },
@@ -1071,8 +1313,260 @@
         "kind": 5,
         "importPath": "Data_Engineer.Flask.Teoria.app",
         "description": "Data_Engineer.Flask.Teoria.app",
-        "peekOfCode": "app = Flask(__name__)\ndef index():\n    return \"Hello World!\"\napp.add_url_rule('/', 'index', index)\napp.run(debug=True)\n@app.route(\"/user/<name>\")\ndef user(name):\n    return \"<h1>Hello, {}!</h1>\".format(name)\n@app.route(\"/user/<name>/<int:index>\")\ndef index(name, index):",
+        "peekOfCode": "app = Flask(__name__, instance_relative_config=True)\napp.config.from_object(\"config\")\n# app.config.from_pyfile(\"Data_Engineer/Flask/Teoria/config.py\")\n@app.route('/')\ndef index():\n    print('esto no funciona en la web pero si en la terminal')\n    print(app.config['BCRYPT_LOG_ROUNDS'])\n    return \"<h1>Hola Solecito!</h1>\"\n@app.route('/rodrigo')\ndef index1():",
         "detail": "Data_Engineer.Flask.Teoria.app",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Teoria.config",
+        "description": "Data_Engineer.Flask.Teoria.config",
+        "peekOfCode": "DEBUG = True # activa la depuración en Flask\nBCRYPT_LOG_ROUNDS = 12 # configuración para la extensión Flask-Bcrypt\nMAIL_FROM_EMAIL = \"micorreo@gmail.com\"",
+        "detail": "Data_Engineer.Flask.Teoria.config",
+        "documentation": {}
+    },
+    {
+        "label": "BCRYPT_LOG_ROUNDS",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Teoria.config",
+        "description": "Data_Engineer.Flask.Teoria.config",
+        "peekOfCode": "BCRYPT_LOG_ROUNDS = 12 # configuración para la extensión Flask-Bcrypt\nMAIL_FROM_EMAIL = \"micorreo@gmail.com\"",
+        "detail": "Data_Engineer.Flask.Teoria.config",
+        "documentation": {}
+    },
+    {
+        "label": "MAIL_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Teoria.config",
+        "description": "Data_Engineer.Flask.Teoria.config",
+        "peekOfCode": "MAIL_FROM_EMAIL = \"micorreo@gmail.com\"",
+        "detail": "Data_Engineer.Flask.Teoria.config",
+        "documentation": {}
+    },
+    {
+        "label": "data_report",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def data_report(df):\n    # Sacamos los NOMBRES\n    cols = pd.DataFrame(df.columns.values, columns=[\"COL_N\"])\n    # Sacamos los TIPOS\n    types = pd.DataFrame(df.dtypes.values, columns=[\"DATA_TYPE\"])\n    # Sacamos los MISSINGS\n    percent_missing = round(df.isnull().sum() * 100 / len(df), 2)\n    percent_missing_df = pd.DataFrame(percent_missing.values, columns=[\"MISSINGS (%)\"])\n    # Sacamos los VALORES UNICOS\n    unicos = pd.DataFrame(df.nunique().values, columns=[\"UNIQUE_VALUES\"])",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "drop_cols",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def drop_cols(df_, max_cardi=20, max_miss=30):\n    df = df_.copy()\n    delete_col = []\n    for i in df.columns:\n        missings = df[i].isnull().sum() * 100 / len(df)\n        # Elimina por missings\n        if missings >= max_miss:\n            df.drop(i, 1, inplace=True)\n            continue\n        # Elimina por cardinalidad en variables categoricas",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "outliers_quantile",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def outliers_quantile(df, feature, param=1.5):  \n    iqr_ = iqr(df[feature], nan_policy='omit')\n    q1 = np.nanpercentile(df[feature], 25)\n    q3 = np.nanpercentile(df[feature], 75)\n    th1 = q1 - iqr_*param\n    th2 = q3 + iqr_*param\n    return df[(df[feature] >= th1) & (df[feature] <= th2)].reset_index(drop=True)\ndef outlier_meanSd(df, feature, param=3):   \n    media = df[feature].mean()\n    desEst = df[feature].std()",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "outlier_meanSd",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def outlier_meanSd(df, feature, param=3):   \n    media = df[feature].mean()\n    desEst = df[feature].std()\n    th1 = media - desEst*param\n    th2 = media + desEst*param\n    return df[((df[feature] >= th1) & (df[feature] <= th2))  | (df[feature].isnull())].reset_index(drop=True)\ndef plot_tidy_categorical(df, sel_cols, target, file_output=None):\n    \"\"\"\n    Generate bar plots for each categorical variable,\n    grouped by target variable.",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_tidy_categorical",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def plot_tidy_categorical(df, sel_cols, target, file_output=None):\n    \"\"\"\n    Generate bar plots for each categorical variable,\n    grouped by target variable.\n    Parameters:\n    - df: DataFrame, the input dataset\n    - sel_cols: list, categorical variables\n    - target: str, name of the column containing the target variable\n    Returns:\n    - None (displays the plots)",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_tidy",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def plot_tidy(df, sel_cols, target,file_output=None):\n    \"\"\"\n    Generate kernel density estimation (KDE) plots for each variable,\n    grouped by target variable.\n    Parameters:\n    - df: DataFrame, the input dataset\n    - sel_cols: list, variables used for clustering\n    - target: str, name of the column containing the target variable\n    Returns:\n    - None (displays the plots)",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "reduce_memory_usage",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def reduce_memory_usage(df, verbose=True):\n    numerics = [\"int8\", \"int16\", \"int32\", \"int64\", \"float16\", \"float32\", \"float64\"]\n    start_mem = df.memory_usage().sum() / 1024 ** 2\n    # Excluir las columnas de índice\n    columns_to_exclude = df.index.names if df.index.name else []\n    for col in df.columns:\n        if col in columns_to_exclude:\n            continue\n        col_type = df[col].dtypes\n        if col_type in numerics:",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_kde_histogram_with_stats",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def plot_kde_histogram_with_stats(data, column_name, title, ax=None):\n    # Use provided ax or create a new subplot\n    if ax is None:\n        fig, ax = plt.subplots(figsize=(10, 6))\n    # KDE + Histogram\n    sns.distplot(data[column_name],fit=norm, kde=True, rug=True, ax=ax)\n    ax.set_title(f'KDE + Histogram - {title}')\n    # Verificar si la columna contiene datos numéricos\n    if pd.api.types.is_numeric_dtype(data[column_name].dtype):\n        # Calcular estadísticas solo si la columna contiene datos numéricos",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "box_violin_plot",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def box_violin_plot(data, column, title, ax=None):\n    # Use provided ax or create a new subplot\n    if ax is None:\n        fig, ax = plt.subplots(figsize=(8, 4))\n    # Violin + Boxplot\n    sns.violinplot(data=data, x=column, inner='point', linewidth=0, saturation=0.4, orient='h', ax=ax)\n    sns.boxplot(x=column, data=data, width=0.3, boxprops={'zorder': 2}, ax=ax, orient='h', fliersize=5)\n    # Adjust the plot design\n    ax.set_title(f\"Boxplot + Violin Plot - {title}\")\n    # Get statistics",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "qq_plot",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def qq_plot(data, column_name, title,ax=None):\n    if ax is None:\n        _, ax = plt.subplots(figsize=(8, 4))\n    # Create QQ plot\n    sm.qqplot(data[column_name], line='s', ax=ax)\n    ax.set_title(f\"Quantile-Quantile Plot - {title}\")\n    plt.xlabel(\"Cuantiles teóricos\")\n    plt.ylabel(\"Cuantiles observados\")\ndef plot_distribucion(data, column_name, **kwargs):\n    title = kwargs.get('title', column_name)",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_distribucion",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def plot_distribucion(data, column_name, **kwargs):\n    title = kwargs.get('title', column_name)\n    save_png, filename = kwargs.get('save_png', False), kwargs.get('filename', 'tmp.png')\n    # Create subplots with specified width ratios\n    fig, axs = plt.subplots(1, 3, figsize=(15, 6), gridspec_kw={'width_ratios': [2, 2, 1]})\n    # Loop through the plots and functions\n    for i, plot_function in enumerate([plot_kde_histogram_with_stats, box_violin_plot, qq_plot]):\n        plot_function(data, column_name, title, ax=axs[i])\n    # Adjust the layout of the subplots\n    plt.tight_layout()",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "sim_curtosis",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def sim_curtosis(data, column_name):\n    kurtosis_valor = kurtosis(data[column_name])\n    skewness_valor = skew(data[column_name])\n    if kurtosis_valor > 3:\n        kurtosis_=\"La distribución es leptocúrtica, lo que sugiere colas pesadas y picos agudos.\"\n    elif kurtosis_valor < 3:\n        kurtosis_=\"La distribución es platicúrtica, lo que sugiere colas ligeras y un pico achatado.\"\n    else:\n        kurtosis_=\"La distribución es mesocúrtica, similar a una distribución normal.\"\n    if skewness_valor > 0:",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_horizontal_catplot",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def plot_horizontal_catplot(df, catcols, diccionario_columnas=None, diccionario_valores=None,\n                            save_png=False, filename='tmp.png'):\n    \"\"\"\n    Genera gráficos Seaborn para la frecuencia de valores únicos en las columnas categóricas del DataFrame.\n    Los gráficos se organizan en filas y las categorías se ordenan por porcentaje descendente.\n    El número de valores NaN o nulos se muestra en el título de cada gráfico.\n    Parameters:\n    - df: DataFrame de pandas\n    - catcols: Lista de columnas categóricas\n    - diccionario_columnas: Diccionario para decodificar nombres de columnas (opcional)",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_analysis",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def plot_analysis(data, target, col):\n    col_mean = []\n    for each in data[target].unique():\n        x = data[data[target] == each]\n        mean = x[col].mean()\n        col_mean.append(mean)\n    plt.figure(figsize=(8,6))\n    plt.subplot(2,2,1)\n    plt.hist(data[col], color=\"lightgreen\")\n    plt.xlabel(col)",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt_transform",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def sqrt_transform(X):\n    return np.sqrt(X)\ndef log_transform(X):\n    return np.log1p(X)\ndef classify_distributions(df, threshold=0.05):\n    \"\"\"\n    Clasifica las distribuciones de las columnas numéricas del DataFrame en una de las siguientes categorías:\n    - 'normal': si la distribución se ajusta a una distribución normal según el test de Shapiro-Wilk.\n    - 'positive_increasing': si la distribución es estrictamente creciente positiva.\n    - 'positive_decreasing': si la distribución es estrictamente decreciente positiva.",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "log_transform",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def log_transform(X):\n    return np.log1p(X)\ndef classify_distributions(df, threshold=0.05):\n    \"\"\"\n    Clasifica las distribuciones de las columnas numéricas del DataFrame en una de las siguientes categorías:\n    - 'normal': si la distribución se ajusta a una distribución normal según el test de Shapiro-Wilk.\n    - 'positive_increasing': si la distribución es estrictamente creciente positiva.\n    - 'positive_decreasing': si la distribución es estrictamente decreciente positiva.\n    - 'rectangular': si la distribución es rectangular.\n    - 'skewed_left': si la distribución tiene sesgo a la izquierda.",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "classify_distributions",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def classify_distributions(df, threshold=0.05):\n    \"\"\"\n    Clasifica las distribuciones de las columnas numéricas del DataFrame en una de las siguientes categorías:\n    - 'normal': si la distribución se ajusta a una distribución normal según el test de Shapiro-Wilk.\n    - 'positive_increasing': si la distribución es estrictamente creciente positiva.\n    - 'positive_decreasing': si la distribución es estrictamente decreciente positiva.\n    - 'rectangular': si la distribución es rectangular.\n    - 'skewed_left': si la distribución tiene sesgo a la izquierda.\n    - 'skewed_right': si la distribución tiene sesgo a la derecha.\n    - 'bimodal': si la distribución tiene dos modas.",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "selvars_boruta",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def selvars_boruta(data,ytarget,isclass=True,n_trials=100):\n    Feature_Selector = BorutaShap(importance_measure='shap',\n                                classification=isclass)\n    Feature_Selector.fit(X=data, y=ytarget, n_trials=n_trials, random_state=0)\n    Feature_Selector.TentativeRoughFix()\n    Feature_Selector.plot(X_size=8, figsize=(20,8),\n                y_scale='log', which_features='all')\n    selvars=sorted(list(Feature_Selector.Subset().columns))\n    return selvars\nimport seaborn as sns",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_confusion_matrix",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def plot_confusion_matrix(true_labels, predicted_labels):\n    \"\"\"\n    Plot a confusion matrix using true labels and predicted labels.\n    Parameters:\n    true_labels (array-like): True labels.\n    predicted_labels (array-like): Predicted labels.\n    \"\"\"\n    # Calculate the confusion matrix\n    conf_matrix = confusion_matrix(true_labels, predicted_labels)\n    # Create a heatmap using seaborn",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cross_validation_with_confusion_matrix",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def cross_validation_with_confusion_matrix(estimator, X, y, nsplits=10):\n    cv = StratifiedKFold(n_splits=nsplits)\n    # Perform cross-validation\n    predicted = cross_val_predict(estimator, X, y, cv=cv)\n    # Calculate confusion matrix and classification report for each fold\n    for i, (train_idx, test_idx) in enumerate(cv.split(X, y)):\n        X_train, X_test = X.iloc[train_idx], X.iloc[test_idx]\n        y_train, y_test = y.iloc[train_idx], y.iloc[test_idx]\n        # Fit the estimator on training data\n        estimator.fit(X_train, y_train)",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_roc_curve",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def plot_roc_curve(model, X_val, y_val):\n    # Predecir las probabilidades de las clases positivas\n    y_prob = model.predict_proba(X_val)[:, 1]\n    # Calcular la tasa de verdaderos positivos (TPR) y la tasa de falsos positivos (FPR)\n    fpr, tpr, thresholds = roc_curve(y_val, y_prob)\n    # Calcular el área bajo la curva ROC (AUC)\n    auc = roc_auc_score(y_val, y_prob)\n    # Plotear la curva ROC\n    plt.figure(figsize=(8, 6))\n    plt.plot(fpr, tpr, label=f'AUC = {auc:.2f}')",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_roc_auc",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def generate_roc_auc(estimator, X_train, y_train, X_val, y_val):\n    \"\"\"\n    Generate ROC curve and calculate AUC using one-vs-all technique.\n    Parameters:\n    estimator: scikit-learn estimator object\n        The classifier or regressor to use.\n    X_train: array-like, shape (n_samples, n_features)\n        The input samples for training.\n    y_train: array-like, shape (n_samples,)\n        The target values for training.",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "hyperparameter_tuning",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def hyperparameter_tuning(models, X, y, scoring='accuracy'):\n    # Almacena los resultados en un DataFrame\n    results = []\n    # Loop sobre los modelos con tqdm para mostrar una barra de progreso\n    for model_name, config in tqdm(models.items(), desc=\"Hyperparameter Tuning\"):\n        model = RandomizedSearchCV(config[\"model\"], config[\"params\"], n_iter=50, cv=5, scoring=scoring,\n                                   random_state=42)\n        model.fit(X, y)  # Ajusta el modelo con los datos de entrenamiento\n        best_params = model.best_params_\n        best_score = model.best_score_",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "perform_cross_validation",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def perform_cross_validation(models, x_train, y_train, n_splits=8, random_state=42, metric='accuracy'):\n    kfold = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state)\n    cv_results = []\n    for name, model in models.items():\n        cv_scores = cross_val_score(model, x_train, y_train, scoring=metric, cv=kfold, n_jobs=-1)\n        cv_results.append(np.mean(cv_scores))\n    cv_df = pd.DataFrame({\"CrossVal_Score_Means\": cv_results, \"Algorithm\": list(models.keys())})\n    plt.figure(figsize=(10, 7))\n    g = sns.barplot(x=\"CrossVal_Score_Means\", y=\"Algorithm\", data=cv_df, orient=\"h\", palette='cool', \n                    edgecolor=\"black\", linewidth=1)",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_distribution_cv",
+        "kind": 2,
+        "importPath": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "description": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
+        "peekOfCode": "def test_distribution_cv(dataframe, perfrac=0.01, columns=None, n_trials=10):\n    sample = X_train.sample(frac=perfrac)\n    kf = KFold(n_splits=n_trials, shuffle=True, random_state=42)\n    results = []\n    if columns is None:\n        columns = dataframe.columns\n    for column_name in columns:\n        equal_distributions = 0\n        for train_index, test_index in kf.split(dataframe):\n            train_data = dataframe.iloc[train_index]",
+        "detail": "Machine_Learning.Prueba_Tecnica_Nivel.utils.utils",
         "documentation": {}
     }
 ]
