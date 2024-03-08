@@ -1,24 +1,33 @@
-from flask import Flask
+from flask import Flask, jsonify
+import numpy as np
+from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__, instance_relative_config=True)
+app.config.from_object("config")
+# app.config.from_pyfile("Data_Engineer/Flask/Teoria/config.py")
 
+@app.route('/')
 def index():
-    return "Hello World!"
+    print('esto no funciona en la web pero si en la terminal')
+    print(app.config['BCRYPT_LOG_ROUNDS'])
+    return "<h1>Hola Solecito!</h1>"
 
-app.add_url_rule('/', 'index', index)
-app.run(debug=True)
+@app.route('/rodrigo')
+def index1():
+    return "<h1>Rodrigo estuvo aquí!</h1>"
 
-@app.route("/user/<name>")
+print('esto no funciona')
 
+@app.route(f"/user/{app.config['BCRYPT_LOG_ROUNDS']}/<name>")
 def user(name):
     return "<h1>Hello, {}!</h1>".format(name)
 
-@app.route("/user/<name>/<int:index>")
-def index(name, index):
-    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']
-    mydict = {'key': 'valor'}
-    mytuple = ('tuple1', 'tuple2', 'tuple3', 'tuple4')
-    return name,index, mylist, mydict,mytuple
+@app.route("/user/<name>/<int:ind>")
+def index2(name, ind):
+    mylist = ['2024/03/06', 'elemento2', False, 'elemento4']
+    mydict = {'key': -ind}
+    mytuple = (datetime.now().date().strftime('%Y/%m/%d'), None, 'tuple3', np.nan)
+    return jsonify(name=name, myindex=ind, mylist=mylist, mydict=mydict, mytuple=mytuple)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True,host="0.0.0.0", port=8910)
