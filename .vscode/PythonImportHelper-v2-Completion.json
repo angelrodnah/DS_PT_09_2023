@@ -215,6 +215,22 @@
         "documentation": {}
     },
     {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
         "label": "confusion_matrix",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
@@ -464,6 +480,30 @@
         "documentation": {}
     },
     {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "render_template",
         "importPath": "flask",
         "description": "flask",
@@ -496,12 +536,20 @@
         "documentation": {}
     },
     {
-        "label": "joblib",
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "joblib",
-        "description": "joblib",
-        "detail": "joblib",
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
         "documentation": {}
     },
     {
@@ -513,28 +561,19 @@
         "documentation": {}
     },
     {
-        "label": "KNeighborsClassifier",
-        "importPath": "sklearn.neighbors",
-        "description": "sklearn.neighbors",
+        "label": "load_iris",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
         "isExtraImport": true,
-        "detail": "sklearn.neighbors",
+        "detail": "sklearn.datasets",
         "documentation": {}
     },
     {
-        "label": "StandardScaler",
-        "importPath": "sklearn.preprocessing",
-        "description": "sklearn.preprocessing",
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
         "isExtraImport": true,
-        "detail": "sklearn.preprocessing",
-        "documentation": {}
-    },
-    {
-        "label": "pickle",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pickle",
-        "description": "pickle",
-        "detail": "pickle",
+        "detail": "sklearn.model_selection",
         "documentation": {}
     },
     {
@@ -591,6 +630,39 @@
         "description": "sklearn.model_selection",
         "isExtraImport": true,
         "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "KNeighborsClassifier",
+        "importPath": "sklearn.neighbors",
+        "description": "sklearn.neighbors",
+        "isExtraImport": true,
+        "detail": "sklearn.neighbors",
+        "documentation": {}
+    },
+    {
+        "label": "KNeighborsClassifier",
+        "importPath": "sklearn.neighbors",
+        "description": "sklearn.neighbors",
+        "isExtraImport": true,
+        "detail": "sklearn.neighbors",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
         "documentation": {}
     },
     {
@@ -1373,6 +1445,87 @@
     {
         "label": "home",
         "kind": 2,
+        "importPath": "Data_Engineer.Flask.Practica_flask.App.app",
+        "description": "Data_Engineer.Flask.Practica_flask.App.app",
+        "peekOfCode": "def home():\n    return render_template('index.html')\n@app.route('/user/<name>', methods=['GET'])\ndef user(name):\n    return render_template('saludar.html', name=name)\n@app.route('/predict', methods=['POST'])\ndef predict():\n    data = request.json\n    a = float(data.get('a'))\n    b = float(data.get('b'))",
+        "detail": "Data_Engineer.Flask.Practica_flask.App.app",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Practica_flask.App.app",
+        "description": "Data_Engineer.Flask.Practica_flask.App.app",
+        "peekOfCode": "def user(name):\n    return render_template('saludar.html', name=name)\n@app.route('/predict', methods=['POST'])\ndef predict():\n    data = request.json\n    a = float(data.get('a'))\n    b = float(data.get('b'))\n    c = float(data.get('c'))\n    d = float(data.get('d'))\n    prediction = model.predict([[a,b,c,d]])",
+        "detail": "Data_Engineer.Flask.Practica_flask.App.app",
+        "documentation": {}
+    },
+    {
+        "label": "predict",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Practica_flask.App.app",
+        "description": "Data_Engineer.Flask.Practica_flask.App.app",
+        "peekOfCode": "def predict():\n    data = request.json\n    a = float(data.get('a'))\n    b = float(data.get('b'))\n    c = float(data.get('c'))\n    d = float(data.get('d'))\n    prediction = model.predict([[a,b,c,d]])\n    return 'La predicción es {}'.format(prediction)\nif __name__ == '__main__':",
+        "detail": "Data_Engineer.Flask.Practica_flask.App.app",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.App.app",
+        "description": "Data_Engineer.Flask.Practica_flask.App.app",
+        "peekOfCode": "model = pickle.load(open('model.pkl', 'rb'))\nprint(model)\napp = Flask(__name__)\n@app.route('/', methods=['GET'])\ndef home():\n    return render_template('index.html')\n@app.route('/user/<name>', methods=['GET'])\ndef user(name):\n    return render_template('saludar.html', name=name)\n@app.route('/predict', methods=['POST'])",
+        "detail": "Data_Engineer.Flask.Practica_flask.App.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.App.app",
+        "description": "Data_Engineer.Flask.Practica_flask.App.app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/', methods=['GET'])\ndef home():\n    return render_template('index.html')\n@app.route('/user/<name>', methods=['GET'])\ndef user(name):\n    return render_template('saludar.html', name=name)\n@app.route('/predict', methods=['POST'])\ndef predict():\n    data = request.json",
+        "detail": "Data_Engineer.Flask.Practica_flask.App.app",
+        "documentation": {}
+    },
+    {
+        "label": "iris",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "peekOfCode": "iris = load_iris()\ndic_target = {i: name for i, name in enumerate(iris['target_names'])}\n# X = iris.data\n# y = iris.target\n# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42)\n# KNN = KNeighborsClassifier()\n# KNN.fit(X_train, y_train)\n# y_train_pred = KNN.predict(X_train)\n# y_test_pred = KNN.predict(X_test)\n# print(classification_report(y_train, y_train_pred)) 97%",
+        "detail": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "documentation": {}
+    },
+    {
+        "label": "dic_target",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "peekOfCode": "dic_target = {i: name for i, name in enumerate(iris['target_names'])}\n# X = iris.data\n# y = iris.target\n# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42)\n# KNN = KNeighborsClassifier()\n# KNN.fit(X_train, y_train)\n# y_train_pred = KNN.predict(X_train)\n# y_test_pred = KNN.predict(X_test)\n# print(classification_report(y_train, y_train_pred)) 97%\n# print('---'*200)",
+        "detail": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "peekOfCode": "model = pickle.load(open('model.pkl', 'rb'))\nmuestra = [4,8,5,3]\nprint(dic_target[model.predict([muestra])[0]])",
+        "detail": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "documentation": {}
+    },
+    {
+        "label": "muestra",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "peekOfCode": "muestra = [4,8,5,3]\nprint(dic_target[model.predict([muestra])[0]])",
+        "detail": "Data_Engineer.Flask.Practica_flask.App.iris",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
         "importPath": "Data_Engineer.Flask.Practica_flask.app",
         "description": "Data_Engineer.Flask.Practica_flask.app",
         "peekOfCode": "def home():\n    \"\"\"Render the home page.\"\"\"\n    return render_template('index.html')\n@app.route('/predict', methods=['GET', 'POST'])\ndef predict():\n    \"\"\"Handle prediction requests.\"\"\"\n    if request.method == 'POST':\n        try:\n            # Get user input and convert to floats\n            sepal_length = float(request.form['sepal_length'])",
@@ -1537,7 +1690,25 @@
         "kind": 2,
         "importPath": "Data_Engineer.Flask.Teoria.app",
         "description": "Data_Engineer.Flask.Teoria.app",
-        "peekOfCode": "def index():\n    print('esto no funciona en la web pero si en la terminal')\n    print(app.config['BCRYPT_LOG_ROUNDS'])\n    return \"<h1>Hola Solecito!</h1>\"\n@app.route('/rodrigo')\ndef index1():\n    return \"<h1>Rodrigo estuvo aquí!</h1>\"\nprint('esto no funciona')\n@app.route(f\"/user/{app.config['BCRYPT_LOG_ROUNDS']}/<name>\")\ndef user(name):",
+        "peekOfCode": "def index():\n    return render_template('home.html')\n@app.route(\"/user/<name>\")\ndef index4(name):\n    index=1\n    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']\n    mydict = {'key': 'valor'}\n    mytuple = ('tuple1', 'tuple2', 'tuple3', 'tuple4')\n    return render_template(\"home.html\", name=name, myindex=index, mylist=mylist, mydict=mydict, mytuple=mytuple)\n@app.route('/nombres')",
+        "detail": "Data_Engineer.Flask.Teoria.app",
+        "documentation": {}
+    },
+    {
+        "label": "index4",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Teoria.app",
+        "description": "Data_Engineer.Flask.Teoria.app",
+        "peekOfCode": "def index4(name):\n    index=1\n    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']\n    mydict = {'key': 'valor'}\n    mytuple = ('tuple1', 'tuple2', 'tuple3', 'tuple4')\n    return render_template(\"home.html\", name=name, myindex=index, mylist=mylist, mydict=mydict, mytuple=mytuple)\n@app.route('/nombres')\ndef nombres():\n    nombres = ['Juan', 'Ana', 'Carlos', 'María']  # Esta lista puede ser obtenida de forma dinámica\n    return render_template('nombres.html', nombres=nombres)",
+        "detail": "Data_Engineer.Flask.Teoria.app",
+        "documentation": {}
+    },
+    {
+        "label": "nombres",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Teoria.app",
+        "description": "Data_Engineer.Flask.Teoria.app",
+        "peekOfCode": "def nombres():\n    nombres = ['Juan', 'Ana', 'Carlos', 'María']  # Esta lista puede ser obtenida de forma dinámica\n    return render_template('nombres.html', nombres=nombres)\n@app.route('/rodrigo')\ndef index1():\n    return \"<h1>Rodrigo estuvo aquí!</h1>\"\nprint('esto no funciona')\n@app.route(f\"/user/{app.config['BCRYPT_LOG_ROUNDS']}/<name>\")\ndef user(name):\n    return \"<h1>Hello, {}!</h1>\".format(name)",
         "detail": "Data_Engineer.Flask.Teoria.app",
         "documentation": {}
     },
@@ -1573,7 +1744,7 @@
         "kind": 5,
         "importPath": "Data_Engineer.Flask.Teoria.app",
         "description": "Data_Engineer.Flask.Teoria.app",
-        "peekOfCode": "app = Flask(__name__, instance_relative_config=True)\napp.config.from_object(\"config\")\n# app.config.from_pyfile(\"Data_Engineer/Flask/Teoria/config.py\")\n@app.route('/')\ndef index():\n    print('esto no funciona en la web pero si en la terminal')\n    print(app.config['BCRYPT_LOG_ROUNDS'])\n    return \"<h1>Hola Solecito!</h1>\"\n@app.route('/rodrigo')\ndef index1():",
+        "peekOfCode": "app = Flask(__name__, instance_relative_config=True)\napp.config.from_object(\"config\")\n# app.config.from_pyfile(\"Data_Engineer/Flask/Teoria/config.py\")\n@app.route('/')\ndef index():\n    return render_template('home.html')\n@app.route(\"/user/<name>\")\ndef index4(name):\n    index=1\n    mylist = ['elemento1', 'elemento2', 'elemento3', 'elemento4']",
         "detail": "Data_Engineer.Flask.Teoria.app",
         "documentation": {}
     },
