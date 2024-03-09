@@ -223,6 +223,22 @@
         "documentation": {}
     },
     {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
         "label": "confusion_matrix",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
@@ -448,6 +464,30 @@
         "documentation": {}
     },
     {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "jsonify",
         "importPath": "flask",
         "description": "flask",
@@ -456,28 +496,61 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "BorutaShap",
-        "importPath": "BorutaShap",
-        "description": "BorutaShap",
-        "isExtraImport": true,
-        "detail": "BorutaShap",
-        "documentation": {}
-    },
-    {
-        "label": "statsmodels.api",
+        "label": "joblib",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "statsmodels.api",
-        "description": "statsmodels.api",
-        "detail": "statsmodels.api",
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "load_iris",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "KNeighborsClassifier",
+        "importPath": "sklearn.neighbors",
+        "description": "sklearn.neighbors",
+        "isExtraImport": true,
+        "detail": "sklearn.neighbors",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "cross_val_score",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
         "documentation": {}
     },
     {
@@ -518,6 +591,31 @@
         "description": "sklearn.model_selection",
         "isExtraImport": true,
         "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "BorutaShap",
+        "importPath": "BorutaShap",
+        "description": "BorutaShap",
+        "isExtraImport": true,
+        "detail": "BorutaShap",
+        "documentation": {}
+    },
+    {
+        "label": "statsmodels.api",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "statsmodels.api",
+        "description": "statsmodels.api",
+        "detail": "statsmodels.api",
         "documentation": {}
     },
     {
@@ -1270,6 +1368,168 @@
         "description": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
         "peekOfCode": "def save_plot(file):\n    \"\"\"Guardar la cifra actual.\"\"\"\n    plt.savefig(file, dpi=300, bbox_inches='tight')",
         "detail": "Data_Analysis.Analisis_de_datos.visual-aids.visual_aids.utils",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Practica_flask.app",
+        "description": "Data_Engineer.Flask.Practica_flask.app",
+        "peekOfCode": "def home():\n    \"\"\"Render the home page.\"\"\"\n    return render_template('index.html')\n@app.route('/predict', methods=['GET', 'POST'])\ndef predict():\n    \"\"\"Handle prediction requests.\"\"\"\n    if request.method == 'POST':\n        try:\n            # Get user input and convert to floats\n            sepal_length = float(request.form['sepal_length'])",
+        "detail": "Data_Engineer.Flask.Practica_flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "predict",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Practica_flask.app",
+        "description": "Data_Engineer.Flask.Practica_flask.app",
+        "peekOfCode": "def predict():\n    \"\"\"Handle prediction requests.\"\"\"\n    if request.method == 'POST':\n        try:\n            # Get user input and convert to floats\n            sepal_length = float(request.form['sepal_length'])\n            sepal_width = float(request.form['sepal_width'])\n            petal_length = float(request.form['petal_length'])\n            petal_width = float(request.form['petal_width'])\n            # Validate input (optional)",
+        "detail": "Data_Engineer.Flask.Practica_flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATE_DIR",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.app",
+        "description": "Data_Engineer.Flask.Practica_flask.app",
+        "peekOfCode": "TEMPLATE_DIR = os.path.join(os.path.dirname(__file__), 'templates')\nSTATIC_DIR = os.path.join(os.path.dirname(__file__), 'static')\nIRIS_LABELS = {1: \"Iris-setosa\", 2: \"Iris-versicolor\", 3: \"Iris-virginica\"}\n# Load the model\nmodel_file = open('model.pkl', 'rb')\nmodel = joblib.load(model_file)\n# Create the Flask app\napp = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)\n@app.route('/')\ndef home():",
+        "detail": "Data_Engineer.Flask.Practica_flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_DIR",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.app",
+        "description": "Data_Engineer.Flask.Practica_flask.app",
+        "peekOfCode": "STATIC_DIR = os.path.join(os.path.dirname(__file__), 'static')\nIRIS_LABELS = {1: \"Iris-setosa\", 2: \"Iris-versicolor\", 3: \"Iris-virginica\"}\n# Load the model\nmodel_file = open('model.pkl', 'rb')\nmodel = joblib.load(model_file)\n# Create the Flask app\napp = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)\n@app.route('/')\ndef home():\n    \"\"\"Render the home page.\"\"\"",
+        "detail": "Data_Engineer.Flask.Practica_flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "IRIS_LABELS",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.app",
+        "description": "Data_Engineer.Flask.Practica_flask.app",
+        "peekOfCode": "IRIS_LABELS = {1: \"Iris-setosa\", 2: \"Iris-versicolor\", 3: \"Iris-virginica\"}\n# Load the model\nmodel_file = open('model.pkl', 'rb')\nmodel = joblib.load(model_file)\n# Create the Flask app\napp = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)\n@app.route('/')\ndef home():\n    \"\"\"Render the home page.\"\"\"\n    return render_template('index.html')",
+        "detail": "Data_Engineer.Flask.Practica_flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "model_file",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.app",
+        "description": "Data_Engineer.Flask.Practica_flask.app",
+        "peekOfCode": "model_file = open('model.pkl', 'rb')\nmodel = joblib.load(model_file)\n# Create the Flask app\napp = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)\n@app.route('/')\ndef home():\n    \"\"\"Render the home page.\"\"\"\n    return render_template('index.html')\n@app.route('/predict', methods=['GET', 'POST'])\ndef predict():",
+        "detail": "Data_Engineer.Flask.Practica_flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.app",
+        "description": "Data_Engineer.Flask.Practica_flask.app",
+        "peekOfCode": "model = joblib.load(model_file)\n# Create the Flask app\napp = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)\n@app.route('/')\ndef home():\n    \"\"\"Render the home page.\"\"\"\n    return render_template('index.html')\n@app.route('/predict', methods=['GET', 'POST'])\ndef predict():\n    \"\"\"Handle prediction requests.\"\"\"",
+        "detail": "Data_Engineer.Flask.Practica_flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.app",
+        "description": "Data_Engineer.Flask.Practica_flask.app",
+        "peekOfCode": "app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)\n@app.route('/')\ndef home():\n    \"\"\"Render the home page.\"\"\"\n    return render_template('index.html')\n@app.route('/predict', methods=['GET', 'POST'])\ndef predict():\n    \"\"\"Handle prediction requests.\"\"\"\n    if request.method == 'POST':\n        try:",
+        "detail": "Data_Engineer.Flask.Practica_flask.app",
+        "documentation": {}
+    },
+    {
+        "label": "perform_cross_validation",
+        "kind": 2,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "def perform_cross_validation(X, y, model, cv=5):  # cv is the number of folds\n    scores = cross_val_score(model, X, y, cv=cv, scoring='accuracy')\n    return scores.mean()\niris = load_iris()\nXall = iris.data\nyall = iris.target\nXtrain, Xtest, ytrain, ytest = train_test_split(Xall, yall, test_size=0.2)\nX = Xtrain\ny = ytrain\nmodel = KNeighborsClassifier()",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
+        "documentation": {}
+    },
+    {
+        "label": "iris",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "iris = load_iris()\nXall = iris.data\nyall = iris.target\nXtrain, Xtest, ytrain, ytest = train_test_split(Xall, yall, test_size=0.2)\nX = Xtrain\ny = ytrain\nmodel = KNeighborsClassifier()\nmodel.fit(Xtrain, ytrain)\naccuracy = perform_cross_validation(Xtest, ytest, model)\nprint(accuracy)",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
+        "documentation": {}
+    },
+    {
+        "label": "Xall",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "Xall = iris.data\nyall = iris.target\nXtrain, Xtest, ytrain, ytest = train_test_split(Xall, yall, test_size=0.2)\nX = Xtrain\ny = ytrain\nmodel = KNeighborsClassifier()\nmodel.fit(Xtrain, ytrain)\naccuracy = perform_cross_validation(Xtest, ytest, model)\nprint(accuracy)\n#scaler = StandardScaler()",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
+        "documentation": {}
+    },
+    {
+        "label": "yall",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "yall = iris.target\nXtrain, Xtest, ytrain, ytest = train_test_split(Xall, yall, test_size=0.2)\nX = Xtrain\ny = ytrain\nmodel = KNeighborsClassifier()\nmodel.fit(Xtrain, ytrain)\naccuracy = perform_cross_validation(Xtest, ytest, model)\nprint(accuracy)\n#scaler = StandardScaler()\n#X = scaler.fit_transform(X)",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "X = Xtrain\ny = ytrain\nmodel = KNeighborsClassifier()\nmodel.fit(Xtrain, ytrain)\naccuracy = perform_cross_validation(Xtest, ytest, model)\nprint(accuracy)\n#scaler = StandardScaler()\n#X = scaler.fit_transform(X)\nypred=model.predict(Xtest)\nprint(confusion_matrix(ypred,ytest))",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "y = ytrain\nmodel = KNeighborsClassifier()\nmodel.fit(Xtrain, ytrain)\naccuracy = perform_cross_validation(Xtest, ytest, model)\nprint(accuracy)\n#scaler = StandardScaler()\n#X = scaler.fit_transform(X)\nypred=model.predict(Xtest)\nprint(confusion_matrix(ypred,ytest))\nprint(accuracy_score(ypred,ytest))",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "model = KNeighborsClassifier()\nmodel.fit(Xtrain, ytrain)\naccuracy = perform_cross_validation(Xtest, ytest, model)\nprint(accuracy)\n#scaler = StandardScaler()\n#X = scaler.fit_transform(X)\nypred=model.predict(Xtest)\nprint(confusion_matrix(ypred,ytest))\nprint(accuracy_score(ypred,ytest))\npickle.dump(model, open(\".\\Data_Engineer\\Flask\\Practica_flask\\model.pkl\", \"wb\"))",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "accuracy = perform_cross_validation(Xtest, ytest, model)\nprint(accuracy)\n#scaler = StandardScaler()\n#X = scaler.fit_transform(X)\nypred=model.predict(Xtest)\nprint(confusion_matrix(ypred,ytest))\nprint(accuracy_score(ypred,ytest))\npickle.dump(model, open(\".\\Data_Engineer\\Flask\\Practica_flask\\model.pkl\", \"wb\"))",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
+        "documentation": {}
+    },
+    {
+        "label": "#scaler",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "#scaler = StandardScaler()\n#X = scaler.fit_transform(X)\nypred=model.predict(Xtest)\nprint(confusion_matrix(ypred,ytest))\nprint(accuracy_score(ypred,ytest))\npickle.dump(model, open(\".\\Data_Engineer\\Flask\\Practica_flask\\model.pkl\", \"wb\"))",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
+        "documentation": {}
+    },
+    {
+        "label": "#X",
+        "kind": 5,
+        "importPath": "Data_Engineer.Flask.Practica_flask.iris",
+        "description": "Data_Engineer.Flask.Practica_flask.iris",
+        "peekOfCode": "#X = scaler.fit_transform(X)\nypred=model.predict(Xtest)\nprint(confusion_matrix(ypred,ytest))\nprint(accuracy_score(ypred,ytest))\npickle.dump(model, open(\".\\Data_Engineer\\Flask\\Practica_flask\\model.pkl\", \"wb\"))",
+        "detail": "Data_Engineer.Flask.Practica_flask.iris",
         "documentation": {}
     },
     {

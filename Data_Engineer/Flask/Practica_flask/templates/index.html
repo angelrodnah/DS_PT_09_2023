@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Clasificador de Flores de Iris</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>¡Bienvenido al Clasificador de Flores de Iris!</h1>
+    </header>
+    <main>
+      <section class="intro">
+        <p>
+          Esta aplicación web te permite predecir la especie de una flor de iris
+          en base a las medidas de sus sépalos y pétalos.
+        </p>
+        <p>
+          Ingresa las medidas de la flor en el siguiente formulario y haz clic
+          en "Predecir" para obtener la clasificación probable.
+        </p>
+      </section>
+      <section class="actions">
+        <a href="{{ url_for('predict') }}">Ir a la página de predicción</a>
+      </section>
+    </main>
+  </body>
+</html>

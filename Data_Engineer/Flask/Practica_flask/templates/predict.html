@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Predecir la Especie de una Flor de Iris</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Predecir la Especie de una Flor de Iris</h1>
+    </header>
+    <main>
+      <form method="POST" action="/predict">
+        <fieldset>
+          <legend>Medidas de la Flor de Iris</legend>
+          <label for="sepal_length">Longitud del Sépal (cm):</label>
+          <input
+            type="number"
+            name="sepal_length"
+            id="sepal_length"
+            min="0"
+            step="0.01"
+            required
+          />
+          <br />
+          <label for="sepal_width">Ancho del Sépalo (cm):</label>
+          <input
+            type="number"
+            name="sepal_width"
+            id="sepal_width"
+            min="0"
+            step="0.01"
+            required
+          />
+          <br />
+          <label for="petal_length">Longitud del Pétalo (cm):</label>
+          <input
+            type="number"
+            name="petal_length"
+            id="petal_length"
+            min="0"
+            step="0.01"
+            required
+          />
+          <br />
+          <label for="petal_width">Ancho del Pétalo (cm):</label>
+          <input
+            type="number"
+            name="petal_width"
+            id="petal_width"
+            min="0"
+            step="0.01"
+            required
+          />
+          <br />
+        </fieldset>
+        <input type="submit" value="Predecir" />
+      </form>
+      {% if prediction %}
+      <section class="prediction">
+        <h2>Resultado de la Predicción</h2>
+        <p>
+          La flor de iris probablemente es una:
+          <strong>{{ prediction }}</strong>
+        </p>
+      </section>
+      {% endif %}
+    </main>
+  </body>
+</html>
