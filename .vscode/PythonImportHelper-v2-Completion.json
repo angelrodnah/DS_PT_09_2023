@@ -1465,7 +1465,7 @@
         "kind": 2,
         "importPath": "Data_Engineer.Docker.App.app",
         "description": "Data_Engineer.Docker.App.app",
-        "peekOfCode": "def predict():\n    data = request.json\n    a = float(data.get('a'))\n    b = float(data.get('b'))\n    c = float(data.get('c'))\n    d = float(data.get('d'))\n    prediction = model.predict([[a,b,c,d]])\n    return 'La predicción es {}'.format(prediction)\nif __name__ == '__main__':",
+        "peekOfCode": "def predict():\n    data = request.json\n    a = float(data.get('a'))\n    b = float(data.get('b'))\n    c = float(data.get('c'))\n    d = float(data.get('d'))\n    prediction = model.predict([[a,b,c,d]])\n    return 'La predicción es {}'.format(prediction)\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', port=5000)",
         "detail": "Data_Engineer.Docker.App.app",
         "documentation": {}
     },
