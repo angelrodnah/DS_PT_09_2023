@@ -456,6 +456,22 @@
         "documentation": {}
     },
     {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "setup",
         "importPath": "distutils.core",
         "description": "distutils.core",
@@ -593,6 +609,14 @@
         "documentation": {}
     },
     {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
         "label": "cross_val_predict",
         "importPath": "sklearn.model_selection",
         "description": "sklearn.model_selection",
@@ -666,6 +690,63 @@
         "documentation": {}
     },
     {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "IrisModel",
+        "importPath": "Model",
+        "description": "Model",
+        "isExtraImport": true,
+        "detail": "Model",
+        "documentation": {}
+    },
+    {
+        "label": "IrisSpecies",
+        "importPath": "Model",
+        "description": "Model",
+        "isExtraImport": true,
+        "detail": "Model",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -680,6 +761,15 @@
         "importPath": "streamlit",
         "description": "streamlit",
         "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.express",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.express",
+        "description": "plotly.express",
+        "detail": "plotly.express",
         "documentation": {}
     },
     {
@@ -1695,6 +1785,78 @@
         "documentation": {}
     },
     {
+        "label": "predict_species",
+        "kind": 2,
+        "importPath": "Data_Engineer.FastAPI.app",
+        "description": "Data_Engineer.FastAPI.app",
+        "peekOfCode": "def predict_species(iris: IrisSpecies):\n    data = iris.dict()\n    prediction, probability = model.predict_species(\n        data['sepal_length'], data['sepal_width'], data['petal_length'], data['petal_width']\n    )\n    return {\n        'prediction': prediction,\n        'probability': probability\n    }\n# 4. Ejecutar la API con uvicorn",
+        "detail": "Data_Engineer.FastAPI.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Data_Engineer.FastAPI.app",
+        "description": "Data_Engineer.FastAPI.app",
+        "peekOfCode": "app = FastAPI()\nmodel = IrisModel()\n# 3. Exponer la funcionalidad de predicción, realizar una predicción a partir de los datos JSON pasados\n#    y devolver la especie de flor predicha con la confianza\n@app.post('/predict')\ndef predict_species(iris: IrisSpecies):\n    data = iris.dict()\n    prediction, probability = model.predict_species(\n        data['sepal_length'], data['sepal_width'], data['petal_length'], data['petal_width']\n    )",
+        "detail": "Data_Engineer.FastAPI.app",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Data_Engineer.FastAPI.app",
+        "description": "Data_Engineer.FastAPI.app",
+        "peekOfCode": "model = IrisModel()\n# 3. Exponer la funcionalidad de predicción, realizar una predicción a partir de los datos JSON pasados\n#    y devolver la especie de flor predicha con la confianza\n@app.post('/predict')\ndef predict_species(iris: IrisSpecies):\n    data = iris.dict()\n    prediction, probability = model.predict_species(\n        data['sepal_length'], data['sepal_width'], data['petal_length'], data['petal_width']\n    )\n    return {",
+        "detail": "Data_Engineer.FastAPI.app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Data_Engineer.FastAPI.app1",
+        "description": "Data_Engineer.FastAPI.app1",
+        "peekOfCode": "def index():\n    '''\n    Este es un docstring...\n    '''\n    return {'message': 'Hola, desconocido'}\n# 4. Ruta con un único parámetro, devuelve el parámetro dentro de un mensaje\n#    Ubicado en: http://127.0.0.1:8000/CualquierNombre\n@app.get('/{name}')\ndef get_name(name: str):\n    '''",
+        "detail": "Data_Engineer.FastAPI.app1",
+        "documentation": {}
+    },
+    {
+        "label": "get_name",
+        "kind": 2,
+        "importPath": "Data_Engineer.FastAPI.app1",
+        "description": "Data_Engineer.FastAPI.app1",
+        "peekOfCode": "def get_name(name: str):\n    '''\n    Este es el otro docstring...\n    '''\n    return {'message': f'Hola, {name}'}\n# 5. Ejecutar la API con uvicorn\n#    Se ejecutará en http://127.0.0.1:8000\nif __name__ == '__main__':\n    uvicorn.run(app, host='127.0.0.1', port=8000)",
+        "detail": "Data_Engineer.FastAPI.app1",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Data_Engineer.FastAPI.app1",
+        "description": "Data_Engineer.FastAPI.app1",
+        "peekOfCode": "app = FastAPI()\n# 3. Ruta del índice, se abre automáticamente en http://127.0.0.1:8000\n@app.get('/')\ndef index():\n    '''\n    Este es un docstring...\n    '''\n    return {'message': 'Hola, desconocido'}\n# 4. Ruta con un único parámetro, devuelve el parámetro dentro de un mensaje\n#    Ubicado en: http://127.0.0.1:8000/CualquierNombre",
+        "detail": "Data_Engineer.FastAPI.app1",
+        "documentation": {}
+    },
+    {
+        "label": "IrisSpecies",
+        "kind": 6,
+        "importPath": "Data_Engineer.FastAPI.Model",
+        "description": "Data_Engineer.FastAPI.Model",
+        "peekOfCode": "class IrisSpecies(BaseModel):\n    sepal_length: float \n    sepal_width: float \n    petal_length: float \n    petal_width: float\n# 3. Clase para entrenar el modelo y hacer predicciones\nclass IrisModel:\n    # Constructor de la clase, carga el conjunto de datos y carga el modelo\n    # si existe. Si no, llama al método _train_model y \n    # guarda el modelo",
+        "detail": "Data_Engineer.FastAPI.Model",
+        "documentation": {}
+    },
+    {
+        "label": "IrisModel",
+        "kind": 6,
+        "importPath": "Data_Engineer.FastAPI.Model",
+        "description": "Data_Engineer.FastAPI.Model",
+        "peekOfCode": "class IrisModel:\n    # Constructor de la clase, carga el conjunto de datos y carga el modelo\n    # si existe. Si no, llama al método _train_model y \n    # guarda el modelo\n    def __init__(self):\n        self.df = pd.read_csv('iris.csv')\n        self.model_fname_ = 'iris_model.pkl'\n        try:\n            self.model = joblib.load(self.model_fname_)\n        except Exception as _:",
+        "detail": "Data_Engineer.FastAPI.Model",
+        "documentation": {}
+    },
+    {
         "label": "index",
         "kind": 2,
         "importPath": "Data_Engineer.Flask.Teoria.app",
@@ -1782,6 +1944,240 @@
         "description": "Data_Engineer.Flask.Teoria.config",
         "peekOfCode": "MAIL_FROM_EMAIL = \"micorreo@gmail.com\"",
         "detail": "Data_Engineer.Flask.Teoria.config",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app3",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app3",
+        "peekOfCode": "df = sns.load_dataset('penguins')\nst.title('Ejemplo de uso de st.write()')\nst.write(\"Hola :sunglasses: :heart:\")\nst.write(1+1)\na = 2**3\nst.write(a*5)\nst.write(df.head(5))\nst.write('st.write(\"text\", df)', df.head(7))",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app3",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app3",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app3",
+        "peekOfCode": "a = 2**3\nst.write(a*5)\nst.write(df.head(5))\nst.write('st.write(\"text\", df)', df.head(7))",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app3",
+        "documentation": {}
+    },
+    {
+        "label": "image",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app4",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app4",
+        "peekOfCode": "image = Image.open(r'C:\\Users\\jamr1\\Documents\\Data_Science\\GITHUB\\DS_PT_09_2023\\Data_Engineer\\Streamlit\\Teoria\\img\\591e3af95df3c.jpeg')\nimage2 = Image.open(r'C:\\Users\\jamr1\\Documents\\Data_Science\\GITHUB\\DS_PT_09_2023\\Data_Engineer\\Streamlit\\Teoria\\img\\images.jpg')\nst.image(image)\nst.image(image2)",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app4",
+        "documentation": {}
+    },
+    {
+        "label": "image2",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app4",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app4",
+        "peekOfCode": "image2 = Image.open(r'C:\\Users\\jamr1\\Documents\\Data_Science\\GITHUB\\DS_PT_09_2023\\Data_Engineer\\Streamlit\\Teoria\\img\\images.jpg')\nst.image(image)\nst.image(image2)",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app4",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "peekOfCode": "df = sns.load_dataset('tips')\nlatlog = {'Madrid': {'lat': 40.416775, 'lon': -3.703790},\n           'Barcelona': {'lat': 41.385064, 'lon': 2.173404},\n           'Valencia': {'lat': 39.469910, 'lon': -0.376288},\n           'Sevilla': {'lat': 37.389092, 'lon': -5.984459},\n           'Zaragoza': {'lat': 41.648823, 'lon': -0.889085}\n           }\ncity = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Zaragoza']\ncity_random = np.random.choice(city,244)\ndf['city'] = city_random",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "documentation": {}
+    },
+    {
+        "label": "latlog",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "peekOfCode": "latlog = {'Madrid': {'lat': 40.416775, 'lon': -3.703790},\n           'Barcelona': {'lat': 41.385064, 'lon': 2.173404},\n           'Valencia': {'lat': 39.469910, 'lon': -0.376288},\n           'Sevilla': {'lat': 37.389092, 'lon': -5.984459},\n           'Zaragoza': {'lat': 41.648823, 'lon': -0.889085}\n           }\ncity = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Zaragoza']\ncity_random = np.random.choice(city,244)\ndf['city'] = city_random\ndf['lat'] = df['city'].map(latlog).map(lambda x: x['lat'])",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "documentation": {}
+    },
+    {
+        "label": "city",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "peekOfCode": "city = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Zaragoza']\ncity_random = np.random.choice(city,244)\ndf['city'] = city_random\ndf['lat'] = df['city'].map(latlog).map(lambda x: x['lat'])\ndf['lon'] = df['city'].map(latlog).map(lambda x: x['lon'])\nmap_df = df[['lat', 'lon']]\nst.map(map_df, zoom=15)",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "documentation": {}
+    },
+    {
+        "label": "city_random",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "peekOfCode": "city_random = np.random.choice(city,244)\ndf['city'] = city_random\ndf['lat'] = df['city'].map(latlog).map(lambda x: x['lat'])\ndf['lon'] = df['city'].map(latlog).map(lambda x: x['lon'])\nmap_df = df[['lat', 'lon']]\nst.map(map_df, zoom=15)",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "documentation": {}
+    },
+    {
+        "label": "df['city']",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "peekOfCode": "df['city'] = city_random\ndf['lat'] = df['city'].map(latlog).map(lambda x: x['lat'])\ndf['lon'] = df['city'].map(latlog).map(lambda x: x['lon'])\nmap_df = df[['lat', 'lon']]\nst.map(map_df, zoom=15)",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "documentation": {}
+    },
+    {
+        "label": "df['lat']",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "peekOfCode": "df['lat'] = df['city'].map(latlog).map(lambda x: x['lat'])\ndf['lon'] = df['city'].map(latlog).map(lambda x: x['lon'])\nmap_df = df[['lat', 'lon']]\nst.map(map_df, zoom=15)",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "documentation": {}
+    },
+    {
+        "label": "df['lon']",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "peekOfCode": "df['lon'] = df['city'].map(latlog).map(lambda x: x['lon'])\nmap_df = df[['lat', 'lon']]\nst.map(map_df, zoom=15)",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "documentation": {}
+    },
+    {
+        "label": "map_df",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "peekOfCode": "map_df = df[['lat', 'lon']]\nst.map(map_df, zoom=15)",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app5",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app6",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app6",
+        "peekOfCode": "a = st.selectbox('Select Box',options=('Option 1', 'Option 2', 'Option 3'))\nprint(a)\n# text input\ntitle = st.text_input('My App Text Input', 'Write Something...')\nst.write('You wrote:  ', title)\n# Adding a text in the sidebar\nst.sidebar.text('Your Text Here')\n# Add a radio button\nst.sidebar.radio('label', options=[])",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app6",
+        "documentation": {}
+    },
+    {
+        "label": "title",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app6",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app6",
+        "peekOfCode": "title = st.text_input('My App Text Input', 'Write Something...')\nst.write('You wrote:  ', title)\n# Adding a text in the sidebar\nst.sidebar.text('Your Text Here')\n# Add a radio button\nst.sidebar.radio('label', options=[])",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app6",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "df = sns.load_dataset('tips')\n# Add Lat Long\nlatlong = {'NY': {'lat': 40.730610, 'lon': -73.935242},\n           'London': {'lat': 51.509865,'lon': -0.118092},\n           'Paris': {'lat': 48.864716, 'lon':2.349014},\n           'Sao Paulo': {'lat': -23.533773,'lon': -46.625290},\n           'Rome': {'lat': 41.902782,'lon': 12.496366}\n           }\ncity = ['Paris', 'London', 'NY', 'Sao Paulo', 'Rome']\nnp.random.seed(12)",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "latlong",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "latlong = {'NY': {'lat': 40.730610, 'lon': -73.935242},\n           'London': {'lat': 51.509865,'lon': -0.118092},\n           'Paris': {'lat': 48.864716, 'lon':2.349014},\n           'Sao Paulo': {'lat': -23.533773,'lon': -46.625290},\n           'Rome': {'lat': 41.902782,'lon': 12.496366}\n           }\ncity = ['Paris', 'London', 'NY', 'Sao Paulo', 'Rome']\nnp.random.seed(12)\ncity_random = np.random.choice(city, 244)\n# Add Cols",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "city",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "city = ['Paris', 'London', 'NY', 'Sao Paulo', 'Rome']\nnp.random.seed(12)\ncity_random = np.random.choice(city, 244)\n# Add Cols\ndf['city'] = city_random\ndf['lat'] = [latlong[city]['lat'] for city in city_random]\ndf['lon'] = [latlong[city]['lon'] for city in city_random]\n#-----------------------------------------------------------------------\n# SIDEBAR\n# Let's add some functionalities in a sidebar",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "city_random",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "city_random = np.random.choice(city, 244)\n# Add Cols\ndf['city'] = city_random\ndf['lat'] = [latlong[city]['lat'] for city in city_random]\ndf['lon'] = [latlong[city]['lon'] for city in city_random]\n#-----------------------------------------------------------------------\n# SIDEBAR\n# Let's add some functionalities in a sidebar\nst.sidebar.subheader('Select to Filter the data')\n# By Sex",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "df['city']",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "df['city'] = city_random\ndf['lat'] = [latlong[city]['lat'] for city in city_random]\ndf['lon'] = [latlong[city]['lon'] for city in city_random]\n#-----------------------------------------------------------------------\n# SIDEBAR\n# Let's add some functionalities in a sidebar\nst.sidebar.subheader('Select to Filter the data')\n# By Sex\nst.sidebar.text('By Sex')\nfilter_sex = st.sidebar.radio('Filter By Sex', options=['Both', 'Female', 'Male'])",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "df['lat']",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "df['lat'] = [latlong[city]['lat'] for city in city_random]\ndf['lon'] = [latlong[city]['lon'] for city in city_random]\n#-----------------------------------------------------------------------\n# SIDEBAR\n# Let's add some functionalities in a sidebar\nst.sidebar.subheader('Select to Filter the data')\n# By Sex\nst.sidebar.text('By Sex')\nfilter_sex = st.sidebar.radio('Filter By Sex', options=['Both', 'Female', 'Male'])\nif filter_sex == 'Both':",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "df['lon']",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "df['lon'] = [latlong[city]['lon'] for city in city_random]\n#-----------------------------------------------------------------------\n# SIDEBAR\n# Let's add some functionalities in a sidebar\nst.sidebar.subheader('Select to Filter the data')\n# By Sex\nst.sidebar.text('By Sex')\nfilter_sex = st.sidebar.radio('Filter By Sex', options=['Both', 'Female', 'Male'])\nif filter_sex == 'Both':\n    pass",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "filter_sex",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "filter_sex = st.sidebar.radio('Filter By Sex', options=['Both', 'Female', 'Male'])\nif filter_sex == 'Both':\n    pass\nelse:\n    df = df.query('sex == @filter_sex')\n# By City\nst.sidebar.text('By City')\nfilter_city = st.sidebar.multiselect('Filter By City', options=city, default=city)\ndf = df.query('city in @filter_city')\n# About Me",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "filter_city",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "filter_city = st.sidebar.multiselect('Filter By City', options=city, default=city)\ndf = df.query('city in @filter_city')\n# About Me\nst.sidebar.markdown('---')\nst.sidebar.markdown('Demonstration App created with')\nst.sidebar.markdown('the toy dataset *Tips* from seaborn')\nst.sidebar.text('App created by Juan Maniglia')\n#-----------------------------------------------------------------------\n# Title\nst.title('Restaurants Dashboard')",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "df = df.query('city in @filter_city')\n# About Me\nst.sidebar.markdown('---')\nst.sidebar.markdown('Demonstration App created with')\nst.sidebar.markdown('the toy dataset *Tips* from seaborn')\nst.sidebar.text('App created by Juan Maniglia')\n#-----------------------------------------------------------------------\n# Title\nst.title('Restaurants Dashboard')\n# Subheader",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "mean_yes",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "mean_yes = st.checkbox('Mean')\nif mean_yes:\n           df_mean = df.groupby(x).mean().reset_index()\n           g4 = px.bar(df_mean,\n            x= x,\n            y= y)\n           st.plotly_chart(g4, use_container_width=True)\nelse:\n           g4 = px.bar(df,\n                       x= x,",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "documentation": {}
+    },
+    {
+        "label": "df_map",
+        "kind": 5,
+        "importPath": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "description": "Data_Engineer.Streamlit.Teoria.app.app7",
+        "peekOfCode": "df_map = df[['city','tip','lat', 'lon']]\nst.map(df_map, zoom=2)\n#-----------------------------------------------------------------------",
+        "detail": "Data_Engineer.Streamlit.Teoria.app.app7",
         "documentation": {}
     },
     {
