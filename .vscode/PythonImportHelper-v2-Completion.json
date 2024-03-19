@@ -617,6 +617,14 @@
         "documentation": {}
     },
     {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
         "label": "cross_val_predict",
         "importPath": "sklearn.model_selection",
         "description": "sklearn.model_selection",
@@ -715,19 +723,43 @@
         "documentation": {}
     },
     {
-        "label": "IrisModel",
-        "importPath": "Model",
-        "description": "Model",
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "Model",
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "IrisModel",
+        "importPath": "Data_Engineer.FastAPI.API.Model",
+        "description": "Data_Engineer.FastAPI.API.Model",
+        "isExtraImport": true,
+        "detail": "Data_Engineer.FastAPI.API.Model",
         "documentation": {}
     },
     {
         "label": "IrisSpecies",
-        "importPath": "Model",
-        "description": "Model",
+        "importPath": "Data_Engineer.FastAPI.API.Model",
+        "description": "Data_Engineer.FastAPI.API.Model",
         "isExtraImport": true,
-        "detail": "Model",
+        "detail": "Data_Engineer.FastAPI.API.Model",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
         "documentation": {}
     },
     {
@@ -744,6 +776,30 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "IrisModel",
+        "importPath": "Model",
+        "description": "Model",
+        "isExtraImport": true,
+        "detail": "Model",
+        "documentation": {}
+    },
+    {
+        "label": "IrisSpecies",
+        "importPath": "Model",
+        "description": "Model",
+        "isExtraImport": true,
+        "detail": "Model",
         "documentation": {}
     },
     {
@@ -1787,6 +1843,51 @@
     {
         "label": "predict_species",
         "kind": 2,
+        "importPath": "Data_Engineer.FastAPI.API.app",
+        "description": "Data_Engineer.FastAPI.API.app",
+        "peekOfCode": "def predict_species(iris: IrisSpecies):\n    data = iris.dict()\n    prediction, probability = model.predict_species(\n        data['sepal_length'], data['sepal_width'], data['petal_length'], data['petal_width']\n    )\n    return {\n        'prediction': prediction,\n        'probability': probability\n    }\n# 4. Ejecutar la API con uvicorn",
+        "detail": "Data_Engineer.FastAPI.API.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Data_Engineer.FastAPI.API.app",
+        "description": "Data_Engineer.FastAPI.API.app",
+        "peekOfCode": "app = FastAPI()\nmodel = IrisModel()\n# 3. Exponer la funcionalidad de predicción, realizar una predicción a partir de los datos JSON pasados\n#    y devolver la especie de flor predicha con la confianza\n@app.post('/predict')\ndef predict_species(iris: IrisSpecies):\n    data = iris.dict()\n    prediction, probability = model.predict_species(\n        data['sepal_length'], data['sepal_width'], data['petal_length'], data['petal_width']\n    )",
+        "detail": "Data_Engineer.FastAPI.API.app",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Data_Engineer.FastAPI.API.app",
+        "description": "Data_Engineer.FastAPI.API.app",
+        "peekOfCode": "model = IrisModel()\n# 3. Exponer la funcionalidad de predicción, realizar una predicción a partir de los datos JSON pasados\n#    y devolver la especie de flor predicha con la confianza\n@app.post('/predict')\ndef predict_species(iris: IrisSpecies):\n    data = iris.dict()\n    prediction, probability = model.predict_species(\n        data['sepal_length'], data['sepal_width'], data['petal_length'], data['petal_width']\n    )\n    return {",
+        "detail": "Data_Engineer.FastAPI.API.app",
+        "documentation": {}
+    },
+    {
+        "label": "IrisSpecies",
+        "kind": 6,
+        "importPath": "Data_Engineer.FastAPI.API.Model",
+        "description": "Data_Engineer.FastAPI.API.Model",
+        "peekOfCode": "class IrisSpecies(BaseModel):\n    sepal_length: float \n    sepal_width: float \n    petal_length: float \n    petal_width: float\n# 3. Clase para entrenar el modelo y hacer predicciones\nclass IrisModel:\n    # Constructor de la clase, carga el conjunto de datos y carga el modelo\n    # si existe. Si no, llama al método _train_model y \n    # guarda el modelo",
+        "detail": "Data_Engineer.FastAPI.API.Model",
+        "documentation": {}
+    },
+    {
+        "label": "IrisModel",
+        "kind": 6,
+        "importPath": "Data_Engineer.FastAPI.API.Model",
+        "description": "Data_Engineer.FastAPI.API.Model",
+        "peekOfCode": "class IrisModel:\n    # Constructor de la clase, carga el conjunto de datos y carga el modelo\n    # si existe. Si no, llama al método _train_model y \n    # guarda el modelo\n    def __init__(self):\n        self.df = pd.read_csv('iris.csv')\n        self.model_fname_ = 'iris_model.pkl'\n        try:\n            self.model = joblib.load(self.model_fname_)\n        except Exception as _:",
+        "detail": "Data_Engineer.FastAPI.API.Model",
+        "documentation": {}
+    },
+    {
+        "label": "predict_species",
+        "kind": 2,
         "importPath": "Data_Engineer.FastAPI.app",
         "description": "Data_Engineer.FastAPI.app",
         "peekOfCode": "def predict_species(iris: IrisSpecies):\n    data = iris.dict()\n    prediction, probability = model.predict_species(\n        data['sepal_length'], data['sepal_width'], data['petal_length'], data['petal_width']\n    )\n    return {\n        'prediction': prediction,\n        'probability': probability\n    }\n# 4. Ejecutar la API con uvicorn",
@@ -1836,6 +1937,33 @@
         "description": "Data_Engineer.FastAPI.app1",
         "peekOfCode": "app = FastAPI()\n# 3. Ruta del índice, se abre automáticamente en http://127.0.0.1:8000\n@app.get('/')\ndef index():\n    '''\n    Este es un docstring...\n    '''\n    return {'message': 'Hola, desconocido'}\n# 4. Ruta con un único parámetro, devuelve el parámetro dentro de un mensaje\n#    Ubicado en: http://127.0.0.1:8000/CualquierNombre",
         "detail": "Data_Engineer.FastAPI.app1",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Data_Engineer.FastAPI.app1_prof",
+        "description": "Data_Engineer.FastAPI.app1_prof",
+        "peekOfCode": "def index():\n    '''\n    Este es un docstring...\n    '''\n    return {'message': 'Hola, desconocido'}\n# 4. Ruta con un único parámetro, devuelve el parámetro dentro de un mensaje\n#    Ubicado en: http://127.0.0.1:8000/CualquierNombre\n@app.get('/{name}')\ndef get_name(name: str):\n    '''",
+        "detail": "Data_Engineer.FastAPI.app1_prof",
+        "documentation": {}
+    },
+    {
+        "label": "get_name",
+        "kind": 2,
+        "importPath": "Data_Engineer.FastAPI.app1_prof",
+        "description": "Data_Engineer.FastAPI.app1_prof",
+        "peekOfCode": "def get_name(name: str):\n    '''\n    Este es el otro docstring...\n    '''\n    return {'message': f'Hola, {name}'}\n# 5. Ejecutar la API con uvicorn\n#    Se ejecutará en http://127.0.0.1:8000\nif __name__ == '__main__':\n    uvicorn.run(app, host='127.0.0.1', port=8000)",
+        "detail": "Data_Engineer.FastAPI.app1_prof",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Data_Engineer.FastAPI.app1_prof",
+        "description": "Data_Engineer.FastAPI.app1_prof",
+        "peekOfCode": "app = FastAPI()\n# 3. Ruta del índice, se abre automáticamente en http://127.0.0.1:8000\n@app.get('/')\ndef index():\n    '''\n    Este es un docstring...\n    '''\n    return {'message': 'Hola, desconocido'}\n# 4. Ruta con un único parámetro, devuelve el parámetro dentro de un mensaje\n#    Ubicado en: http://127.0.0.1:8000/CualquierNombre",
+        "detail": "Data_Engineer.FastAPI.app1_prof",
         "documentation": {}
     },
     {
