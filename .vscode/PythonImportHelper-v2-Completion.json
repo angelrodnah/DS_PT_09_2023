@@ -1947,6 +1947,15 @@
         "documentation": {}
     },
     {
+        "label": "data_report",
+        "kind": 2,
+        "importPath": "Data_Engineer.Repaso.utils.utils",
+        "description": "Data_Engineer.Repaso.utils.utils",
+        "peekOfCode": "def data_report(df):\n    '''Esta funcion describe los campos de un dataframe de pandas de forma bastante clara, crack'''\n    # Sacamos los NOMBRES\n    cols = pd.DataFrame(df.columns.values, columns=[\"COL_N\"])\n    # Sacamos los TIPOS\n    types = pd.DataFrame(df.dtypes.values, columns=[\"DATA_TYPE\"])\n    # Sacamos los MISSINGS\n    percent_missing = round(df.isnull().sum() * 100 / len(df), 2)\n    percent_missing_df = pd.DataFrame(percent_missing.values, columns=[\"MISSINGS (%)\"])\n    # Sacamos los VALORES UNICOS",
+        "detail": "Data_Engineer.Repaso.utils.utils",
+        "documentation": {}
+    },
+    {
         "label": "df",
         "kind": 5,
         "importPath": "Data_Engineer.Streamlit.Teoria.app.app3",
